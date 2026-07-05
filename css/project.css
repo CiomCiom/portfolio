@@ -268,3 +268,40 @@ div.work-block__gallery.work-block__gallery--grid2 {
     grid-template-columns: 1fr;
   }
 }
+ /* ---------- Key UX decisions ---------- */
+.decision-block {
+  padding-top: var(--sp-7);
+}
+
+.decision-block__title {
+  margin-bottom: var(--sp-2);
+}
+
+.decision-block__text {
+  max-width: 737px;
+  margin-bottom: var(--sp-2);
+}
+
+.decision-block__text + .decision-block__text {
+  margin-top: var(--sp-1);
+}
+
+.decision-block__diagram {
+  margin-top: var(--sp-4);
+}
+
+.decision-block__diagram img {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  border: 1px solid var(--color-border);
+}
+
+.decision-block__diagram figcaption {
+  margin-top: var(--sp-1);
+  color: var(--color-text-secondary);
+}
+
+.decision-block__diagram + .decision-block__diagram {
+  margin-top: var(--sp-4);
+}
