@@ -357,7 +357,7 @@ button {
     display: none;
     align-items: flex-start;
     justify-content: center;
-    padding: var(--sp-6) var(--container-padding);
+    padding: var(--sp-6) var(--sp-6);
     z-index: 1000;
     cursor: zoom-out;
     overflow-y: auto;
