@@ -74,7 +74,7 @@
 /* ---------- Skills tags ---------- */
 .skills-columns {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
   gap: var(--sp-5) var(--sp-6);
   margin-top: var(--sp-6);
 }
