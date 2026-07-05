@@ -9,7 +9,6 @@
 
 .decision-block + .decision-block {
   border-top: 1px solid var(--color-border);
-  margin-top: var(--sp-7);
 }
 
 .project-hero__subtitle {
