@@ -313,6 +313,46 @@
             </div>
         </section>
 
+      <section class="project-section container section-divider reveal">
+  <h2 class="h2 project-section__title">Key UX decisions</h2>
+
+  <div class="decision-block">
+    <h3 class="h3 decision-block__title">Decision 1: Reduced delegation from 7 steps to 3</h3>
+    <p class="b5 text-secondary decision-block__text">
+      Early flows were too long and created unnecessary cognitive load. I simplified the process into three key actions: choose delegation type, review AI recommendation, confirm delegation.
+    </p>
+
+    <figure class="decision-block__diagram">
+      <img src="../images/polli-co/flow-old.jpg" alt="Old delegation flow, 7 steps" />
+      <figcaption class="d7">Old flow</figcaption>
+    </figure>
+
+    <figure class="decision-block__diagram">
+      <img src="../images/polli-co/flow-new.jpg" alt="Updated delegation flow, 3 steps" />
+      <figcaption class="d7">Updated flow</figcaption>
+    </figure>
+  </div>
+
+  <div class="decision-block">
+    <h3 class="h3 decision-block__title">Decision 2: Streamlining withdrawals</h3>
+    <p class="b5 text-secondary decision-block__text">
+      In some networks, it was possible to withdraw funds from multiple validators at once. This required designing a modal window that supported multiple selections, while ensuring the user wasn't overwhelmed with information.
+    </p>
+    <p class="b5 text-secondary decision-block__text">
+      It was also decided to retain the option to withdraw from a single validator, including the ability to specify a token amount (an option that is technically unavailable for multiple validators). Thus, selecting a single validator would bring up an input field.
+    </p>
+
+    <figure class="decision-block__diagram">
+      <img src="../images/polli-co/withdraw-multi.jpg" alt="Withdrawal flow with multi-select" />
+      <figcaption class="d7">Option with multi-select</figcaption>
+    </figure>
+
+    <figure class="decision-block__diagram">
+      <img src="../images/polli-co/withdraw-single.jpg" alt="Withdrawal flow with single selector" />
+      <figcaption class="d7">Option with single selector</figcaption>
+    </figure>
+  </div>
+</section>
 
         <!-- WHERE THE PROJECT LANDED -->
         <section class="section container section-border-top reveal">
