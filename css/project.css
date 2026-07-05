@@ -285,7 +285,7 @@ div.work-block__gallery.work-block__gallery--grid2 {
   margin-top: var(--sp-7);
 }
 .decision-block__title {
-  margin-bottom: var(--sp-2);
+  margin-bottom: var(--sp-3);
 }
 
 .decision-block__text {
@@ -298,7 +298,7 @@ div.work-block__gallery.work-block__gallery--grid2 {
 }
 
 .decision-block__diagram {
-  margin-top: var(--sp-4);
+  margin-top: var(--sp-3);
 }
 
 .decision-block__diagram img {
@@ -312,5 +312,5 @@ div.work-block__gallery.work-block__gallery--grid2 {
 }
 
 .decision-block__diagram + .decision-block__diagram {
-  margin-top: var(--sp-4);
+  margin-top: var(--sp-2);
 }
