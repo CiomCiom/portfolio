@@ -72,7 +72,17 @@
 }
 
 /* ---------- Skills tags ---------- */
-.skills {
+.skills-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--sp-5) var(--sp-6);
+  margin-top: var(--sp-6);
+}
+
+.skill-group .tags-list {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--sp-1);
   margin-top: var(--sp-2);
 }
 
