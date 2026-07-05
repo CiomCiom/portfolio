@@ -1,4 +1,4 @@
-(function () {
+window.addEventListener('load', function () {
   const targets = document.querySelectorAll('.reveal');
 
   if (!('IntersectionObserver' in window) || targets.length === 0) {
@@ -21,4 +21,4 @@
   );
 
   targets.forEach((el) => observer.observe(el));
-})();
+});
