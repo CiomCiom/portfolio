@@ -16,7 +16,7 @@ window.addEventListener('load', function () {
       });
     },
     {
-      threshold: 0.50,
+      threshold: 0.1,
     }
   );
 
