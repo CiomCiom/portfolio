@@ -316,8 +316,8 @@ div.work-block__gallery.work-block__gallery--grid2 {
 
 .impact-checklist span {
   font-family: var(--font-body);
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 32px;
+  font-weight: 400;
+  line-height: 28px;
 }
