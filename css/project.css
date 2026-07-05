@@ -1,0 +1,270 @@
+/* ==========================================================================
+   project.css — стили, специфичные для страницы отдельного проекта
+   ========================================================================== */
+
+/* ---------- Project hero ---------- */
+.project-hero {
+  padding-top: var(--sp-8);
+}
+
+.project-hero__subtitle {
+  color: var(--color-text);
+  margin-top: var(--sp-3);
+}
+
+.project-hero__meta {
+  display: flex;
+  gap: var(--sp-9);
+  margin-top: var(--sp-5);
+  flex-wrap: wrap;
+}
+
+.project-hero__meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.project-hero__meta-value {
+  color: var(--color-text);
+}
+
+.project-hero__meta-label {
+  color: var(--color-text-secondary);
+}
+
+.project-hero__image {
+    margin-top: var(--sp-6);
+    margin-left: calc(-1 * var(--container-padding));
+    margin-right: calc(-1 * var(--container-padding));
+}
+
+.project-hero__image img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.project-text {
+    max-width: 737px;
+}
+
+/* ---------- Generic project text section ---------- */
+.project-section__title {
+  margin-bottom: var(--sp-5);
+}
+
+
+/* ---------- "How the work unfolded" sub-sections ---------- */
+.work-block {
+  padding-top: var(--sp-7);
+}
+
+.work-block__gallery figure {
+    margin: 0;
+}
+
+.work-block__gallery figcaption {
+    margin-top: var(--sp-1);
+}
+
+.work-block__grid {
+    display: grid;
+    grid-template-columns: 302px 1fr;
+    gap: var(--sp-5);
+    align-items: start;
+}
+
+.work-block__grid > div:first-child .tags-list {
+  gap: var(--sp-1);
+}
+
+
+.work-block__gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-2);
+}
+
+.work-block__gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background-color: #111;
+}
+
+.work-block__gallery--natural {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sp-2);
+    row-gap: var(--sp-2);
+    align-items: start;
+}
+
+.work-block__gallery--natural figure:last-child {
+        grid-column: 1 / -1;
+    }
+
+    .work-block__gallery--natural img {
+        display: block;
+        width: 100%;
+        aspect-ratio: auto;
+        height: auto;
+        object-fit: contain;
+        background-color: transparent;
+    }
+
+.work-block__caption {
+  margin-top: var(--sp-1);
+  color: var(--color-text-secondary);
+}
+
+.work-block__phase {
+    color: var(--color-accent);
+    margin-bottom: var(--sp-1);
+}
+
+.work-block__title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 12px;
+}
+
+div.work-block__gallery.work-block__gallery--grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--sp-2);
+    row-gap: var(--sp-2);
+}
+
+.work-block__gallery--grid2 img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: auto;
+        object-fit: contain;
+    }
+
+.work-block__gallery--grid2 figcaption {
+        margin-top: var(--sp-1);
+    }
+
+.section-divider {
+    border-top: 1px solid var(--color-border);
+    margin-top: var(--sp-7);
+}
+
+@media (max-width: 900px) {
+  .work-block__grid {
+    grid-template-columns: 1fr;
+  }
+  .work-block__gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ---------- Website block with mockups ---------- */
+.website-mockups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-3);
+  margin-top: var(--sp-3);
+}
+
+.website-mockups img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border: 1px solid var(--color-border);
+}
+
+@media (max-width: 768px) {
+  .website-mockups {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- My role ---------- */
+.role-grid {
+  display: grid;
+  grid-template-columns: 1fr 504px;
+  gap: var(--sp-6);
+}
+
+
+.role-grid > div:last-child {
+  border-left: 1px solid var(--color-border);
+  padding-left: var(--sp-6);
+}
+
+
+.role-checklist {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-2);
+}
+
+.role-checklist li {
+    display: flex;
+    gap: var(--sp-2);
+    align-items: center;
+    padding: var(--sp-2);
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--color-border);
+}
+
+.role-checklist li {
+  display: flex;
+  gap: var(--sp-2);
+  align-items: center;
+}
+
+.role-checklist__icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.role-checklist strong {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.role-list-large {
+    display: flex;
+    flex-direction: column;
+}
+
+.role-list-large__label {
+    color: var(--color-text-secondary);
+    margin-bottom: 12px;
+}
+
+.role-list-large__group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.role-list-large__item {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: var(--color-text);
+}
+
+.role-list-large__divider {
+    border-top: 1px solid var(--color-border);
+    margin-top: var(--sp-5);
+    margin-bottom: var(--sp-5);
+}
+
+@media (max-width: 768px) {
+  .role-grid {
+    grid-template-columns: 1fr;
+  }
+}

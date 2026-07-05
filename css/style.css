@@ -1,0 +1,464 @@
+/* ==========================================================================
+   STATKEVICH ANASTASIYA — Portfolio
+   style.css — переменные, сброс, базовая типографика, общие компоненты
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;600;700&family=Roboto+Mono:wght@300;400;500&display=swap');
+
+/* ---------- Variables ---------- */
+:root {
+  /* Colors */
+  --color-bg: #000000;
+  --color-text: #ffffff;
+  --color-text-secondary: rgba(255, 255, 255, 0.7); /* #FFFFFFB3 */
+  --color-accent: #2f5cff;
+  --color-accent-active: #2549cc;
+  --color-grey: #4d4d4d;
+  --color-border: rgba(255, 255, 255, 0.1);
+
+  /* Fonts */
+  --font-display: 'Roboto Condensed', sans-serif;
+  --font-body: 'Roboto Mono', monospace;
+
+  /* Spacing scale (8px grid, as in Figma redlines) */
+  --sp-1: 8px;
+  --sp-2: 16px;
+  --sp-3: 24px;
+  --sp-4: 32px;
+  --sp-5: 40px;
+  --sp-6: 48px;
+  --sp-7: 56px;
+  --sp-8: 64px;
+  --sp-9: 72px;
+  --sp-10: 80px;
+
+  /* Layout */
+  --container-width: 1920px;
+  --container-padding: var(--sp-10);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --container-padding: var(--sp-3);
+  }
+}
+
+/* ---------- Reset ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- Typography ---------- */
+
+/* H1 — Hero title */
+.h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 104px;
+  line-height: 112px;
+  text-transform: uppercase;
+}
+
+/* H2 — Section label */
+.h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+/* H2 (m) — Section Label Mobile */
+.h2-m {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+/* H3 — Card label */
+.h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+/* B4 — Body bold (mono) */
+.b4 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* B5 — Body (mono) */
+.b5 {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* D6 — Description bold */
+.d6 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* D7 — Description */
+.d7 {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text-secondary {
+  color: var(--color-text-secondary);
+}
+
+.divider {
+    color: var(--color-grey);
+}
+
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+}
+
+/* ---------- Layout helpers ---------- */
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
+
+.section {
+  padding-top: var(--sp-9);
+  padding-bottom: var(--sp-9);
+}
+
+.section-border-top {
+  border-top: 1px solid var(--color-border);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding-top: var(--sp-6);
+    padding-bottom: var(--sp-6);
+  }
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-1);
+  padding: 12px 24px;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  transition: box-shadow 0.5s ease, background-color 0.5s ease, transform 0.5s ease;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 20px 40px 0 rgba(47, 92, 255, 0.40);
+  transform: translateY(-4px);
+}
+
+.btn-primary:active {
+  background-color: var(--color-accent-active);
+  transform: translateY(-2px);
+  box-shadow: none; 
+}
+
+.btn-outline {
+  border: 1px solid var(--color-accent);
+  color: var(--color-text);
+  transition: box-shadow 0.5s ease, background-color 0.5s ease, transform 0.5s ease;
+}
+
+.btn-outline:hover {
+  background-color: var(--color-accent);
+  box-shadow: 0 20px 40px 0 rgba(47, 92, 255, 0.40);
+  transform: translateY(-4px);
+}
+
+.btn-primary:active {
+    background-color: var(--color-accent-active);
+    transform: translateY(-2px);
+    box-shadow: none;
+}
+
+
+/* ---------- Tags ---------- */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid var(--color-border);
+  font-family: var(--font-body);
+  color: var(--color-text);
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-1);
+}
+
+/* ---------- Site header (project pages) ---------- */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--sp-3);
+  padding-bottom: var(--sp-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-header__name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.site-header__link {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--color-text-secondary);
+  transition: color 0.2s ease;
+}
+
+.site-header__link:hover {
+  color: var(--color-text);
+}
+
+/* ---------- Site footer (shared) ---------- */
+.site-footer {
+  text-align: center;
+  padding-top: var(--sp-10);
+  padding-bottom: var(--sp-10);
+  border-top: 1px solid var(--color-border);
+}
+
+.site-footer .h2 {
+  margin-bottom: var(--sp-2);
+}
+
+.site-footer__subtitle {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--sp-5);
+}
+
+.site-footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+}
+
+@media (max-width: 768px) {
+  .site-footer__links {
+    flex-direction: column;
+  }
+}
+
+/* ---------- Lightbox ---------- */
+.lightbox-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--sp-6) var(--container-padding);
+    z-index: 1000;
+    cursor: zoom-out;
+    overflow-y: auto;
+}
+
+    .lightbox-overlay.is-open {
+        display: flex;
+    }
+
+.lightbox-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    cursor: default;
+}
+
+.lightbox-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--sp-2);
+}
+
+.lightbox-overlay img#lightbox-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.lightbox-caption {
+    color: var(--color-text);
+}
+
+
+.lightbox-close {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+    .lightbox-close img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+.lightbox-trigger {
+    transition: transform 0.3s ease;
+}
+
+    .lightbox-trigger:hover {
+        transform: scale(1.03);
+    }
+
+/* ---------- Custom cursor ---------- */
+.has-custom-cursor,
+.has-custom-cursor a,
+.has-custom-cursor button {
+    cursor: none;
+}
+
+.cursor-ring {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 2000;
+    transform: translate3d(-50%, -50%, 0);
+    transition: width 0.3s ease, height 0.3s ease, opacity 0.2s ease;
+    will-change: transform;
+    opacity: 0;
+}
+
+    .cursor-ring.is-visible {
+        opacity: 1;
+    }
+
+    .cursor-ring.is-hovering-image {
+        width: 64px;
+        height: 64px;
+        background-color: #fff;
+        border-color: transparent;
+        mix-blend-mode: difference;
+    }
+
+@media (hover: none), (pointer: coarse) {
+    .cursor-ring {
+        display: none;
+    }
+
+    .has-custom-cursor,
+    .has-custom-cursor * {
+        cursor: none;
+    }
+
+        .has-custom-cursor .lightbox-overlay {
+            cursor: none !important;
+        }
+}
