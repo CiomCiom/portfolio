@@ -43,7 +43,7 @@
 }
 
 .project-text {
-    max-width: 737px;
+    max-width: 845px;
 }
 
 /* ---------- Generic project text section ---------- */
@@ -278,7 +278,7 @@ div.work-block__gallery.work-block__gallery--grid2 {
 }
 
 .decision-block__text {
-  max-width: 737px;
+  max-width: 845px;
   margin-bottom: var(--sp-2);
 }
 
