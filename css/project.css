@@ -303,3 +303,16 @@ div.work-block__gallery.work-block__gallery--grid2 {
 .decision-block__diagram + .decision-block__diagram {
   margin-top: var(--sp-3);
 }
+
+/* ---------- Impact ---------- */
+.impact-checklist li {
+  border-color: var(--color-accent);
+}
+
+.impact-checklist span {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
