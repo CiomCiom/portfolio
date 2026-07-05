@@ -292,7 +292,6 @@ div.work-block__gallery.work-block__gallery--grid2 {
 
 .decision-block__diagram img {
   width: 100%;
-  max-width: 700px;
   display: block;
   border: 1px solid var(--color-border);
 }
