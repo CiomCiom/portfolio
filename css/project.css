@@ -276,7 +276,7 @@ div.work-block__gallery.work-block__gallery--grid2 {
 /* ---------- Key UX decisions ---------- */
 
 .project-section__title {
-  margin-bottom: var(--sp-5);
+  margin-bottom: var(--sp-2);
 }
 
 .decision-block + .decision-block {
