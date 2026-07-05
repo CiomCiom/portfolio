@@ -293,7 +293,6 @@ div.work-block__gallery.work-block__gallery--grid2 {
 .decision-block__diagram img {
   width: 100%;
   display: block;
-  margin-bottom: var(--sp-3);
 }
 
 .decision-block__diagram figcaption {
