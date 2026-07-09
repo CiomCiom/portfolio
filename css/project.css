@@ -4,6 +4,10 @@
 
 /* ---------- Project hero ---------- */
 
+.project-hero .h1 {
+  margin-top: var(--sp-5);
+}
+
 .project-hero__subtitle {
   color: var(--color-text);
   margin-top: var(--sp-3);
@@ -322,3 +326,4 @@ div.work-block__gallery.work-block__gallery--grid2 {
   font-weight: 400;
   line-height: 28px;
 }
+
