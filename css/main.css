@@ -114,7 +114,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: var(--sp-5);
-  row-gap: var(--sp-5);
   align-items: start;
 }
 
