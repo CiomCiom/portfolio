@@ -12,7 +12,7 @@
 .intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--sp-10);
+  gap: var(--sp-6);
   align-items: start;
 }
 
@@ -142,6 +142,7 @@
 @media (max-width: 900px) {
   .latest-work {
     grid-template-columns: 1fr;
+    row-gap: var(--sp-2);
   }
 }
 
