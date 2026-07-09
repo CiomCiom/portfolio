@@ -91,7 +91,7 @@
 .timeline-list {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-2);
+  gap: var(--sp-10);
 }
 
 .timeline-item {
