@@ -113,7 +113,8 @@
 .latest-work {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--sp-4);
+  column-gap: var(--sp-8);
+  row-gap: var(--sp-4);
   align-items: start;
 }
 
