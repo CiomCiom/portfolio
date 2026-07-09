@@ -91,7 +91,7 @@
 .timeline-list {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-2);
+  gap: var(--sp-5);
 }
 
 .timeline-item {
@@ -113,7 +113,7 @@
 .latest-work {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--sp-6);
+  gap: var(--sp-5);
   align-items: start;
 }
 
@@ -149,7 +149,7 @@
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--sp-6);
+  gap: var(--sp-5);
 }
 
 .projects-year {
@@ -188,7 +188,7 @@
 .steps-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: var(--sp-6); 
+    gap: var(--sp-5); 
 }
 
 .step + .step {
