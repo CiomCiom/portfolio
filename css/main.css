@@ -136,7 +136,7 @@
 }
 
 .latest-work + .latest-work {
-  margin-top: var(--sp-10);
+  margin-top: var(--sp-3);
 }
 
 @media (max-width: 900px) {
