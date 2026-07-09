@@ -135,6 +135,10 @@
   margin-top: var(--sp-1);
 }
 
+.latest-work + .latest-work {
+  margin-top: var(--sp-3);
+}
+
 @media (max-width: 900px) {
   .latest-work {
     grid-template-columns: 1fr;
