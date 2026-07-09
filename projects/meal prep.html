@@ -283,7 +283,6 @@
                     <p class="work-block__caption d7">Orders/Profile/Chat</p>
                 </div>
             </div>
-            <div class="section-divider"></div>
         </section>
       
  <!-- Key UX decisions< --> 
@@ -296,7 +295,7 @@
       The initial design did not include an FAQ section; there was simply a support chat. However, after some consideration, we decided to add one. A minor challenge arose: we needed not only to add the section but also to ensure users could return to it after opening the chat page. We also wanted to avoid fixing it in place, as is often done with website chat widgets. Consequently, we separated the two screens, keeping the chat and the FAQ page distinct.
       </p>
 
-    <figure class="decision-block__diagram">
+    <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";>
       <img src="../images/meal-prep/decision-chat.png" alt="Chat with FAQ section" class="js-lightbox" />
       <figcaption class="d7">Chat view</figcaption>
     </figure>
@@ -308,7 +307,7 @@
           To engage the user immediately, it was decided to allow them to proceed through several screens as a guest before requiring registration. This will clearly increase the number of users who complete the process. By the time they are asked to register or log in, the user will have already selected their dietary preferences.
       </p>
 
-    <figure class="decision-block__diagram">
+    <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";>
       <img src="../images/meal-prep/decision-guest_mode.png" alt="Guest mode for user" class="js-lightbox"/>
       <figcaption class="d7">Guest mode</figcaption>
     </figure>
@@ -318,7 +317,8 @@
         <h3 class="h3 decision-block__title">Decision 3: Collapsible parts</h3>
         <p class="b5 decision-block__text">
             Since this is a mobile app, we had to account for limited screen real estate, especially given the use of fixed buttons and menus—not to mention the device's status bar and home indicator. Consequently, we decided to make certain elements collapsible to save space. For instance, we applied this approach to the order details on the payment page; while the information is significant overall, it is less critical at that specific stage, so we collapsed the section. This freed up space for more important information regarding payment methods.    <figure class="decision-block__diagram">
-                <img src="../images/meal-prep/decision-hide-details.png" alt="Hiden elements in Meal.prep" class="js-lightbox" />
+                 <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";> 
+              <img src="../images/meal-prep/decision-hide-details.png" alt="Hiden elements in Meal.prep" class="js-lightbox" />
                 <figcaption class="d7">Order view</figcaption>
             </figure>
 </div>
