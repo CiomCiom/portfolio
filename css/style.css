@@ -270,6 +270,11 @@ button {
     box-shadow: none;
 }
 
+.link-cta {
+    color: var(--color-accent);
+    font-weight: 700;
+}
+
 
 /* ---------- Tags ---------- */
 .tag {
@@ -382,9 +387,12 @@ button {
 }
 
 .lightbox-overlay img#lightbox-img {
-    width: 100%;
+    max-width: 100%;
+    max-height: calc(100vh - var(--sp-3) * 2 - 60px);
+    width: auto;
     height: auto;
     display: block;
+    margin: 0 auto;
 }
 
 .lightbox-caption {

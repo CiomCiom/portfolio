@@ -91,6 +91,7 @@
 .work-block__gallery img {
   width: 100%;
   aspect-ratio: 4 / 3;
+  height: auto;
   object-fit: cover;
   background-color: #111;
 }
@@ -115,6 +116,13 @@
         object-fit: contain;
         background-color: transparent;
     }
+
+.work-block__gallery--auto-height img {
+    aspect-ratio: auto;
+    height: auto;
+    object-fit: contain;
+    background-color: transparent;
+}
 
 .work-block__caption {
   margin-top: var(--sp-1);
@@ -165,6 +173,34 @@ div.work-block__gallery.work-block__gallery--grid2 {
   .work-block__gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.b5 + .b5 {
+    margin-top: var(--sp-2);
+}
+
+/* ---------- Design system grid (masonry-style, 2 columns) ---------- */
+.design-system-grid {
+    display: flex;
+    gap: var(--sp-2);
+    margin-top: var(--sp-2);
+}
+
+.design-system-grid__col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-2);
+}
+
+.design-system-grid__item img {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+}
+
+.design-system-grid__item figcaption {
+    margin-top: var(--sp-1);
 }
 
 /* ---------- Website block with mockups ---------- */
