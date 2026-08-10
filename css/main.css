@@ -98,7 +98,7 @@
 
 .exp-item {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 288px 843px;
   gap: var(--sp-5);
   align-items: start;
 }
