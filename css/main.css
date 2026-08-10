@@ -74,12 +74,10 @@
 
 /* ---------- Skills list (inline) ---------- */
 .skills-list-block {
-  margin-top: var(--sp-6);
-  padding-top: var(--sp-6);
-  padding-bottom: var(--sp-6);
+  padding-bottom: var(--sp-5);
   display: flex;
   flex-direction: column;
-  gap: var(--sp-3);
+  gap: var(--sp-5);
 }
 
 .skills-row {
