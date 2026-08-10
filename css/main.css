@@ -71,20 +71,24 @@
   color: var(--color-text);
 }
 
-/* ---------- Skills tags ---------- */
-.skills-columns {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: var(--sp-5) var(--sp-6);
+/* ---------- Skills list (inline) ---------- */
+.skills-list-block {
   margin-top: var(--sp-6);
   padding-top: var(--sp-6);
+  padding-bottom: var(--sp-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
 }
 
-.skill-group .tags-list {
+.skills-row {
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: var(--sp-1);
-  margin-top: var(--sp-2);
+  gap: 4px;
+}
+
+.skills-row h3 {
+  color: var(--color-text);
 }
 
 /* ---------- Work experience / Education ---------- */
