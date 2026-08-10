@@ -89,6 +89,48 @@
   color: var(--color-text);
 }
 
+/* ---------- Work experience (detailed) ---------- */
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-6);
+}
+
+.exp-item {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: var(--sp-5);
+  align-items: start;
+}
+
+.exp-item__role {
+  color: var(--color-accent);
+  margin-bottom: 4px;
+}
+
+.exp-item__company {
+  color: var(--color-text);
+  margin-bottom: 4px;
+}
+
+.exp-item__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+  padding-left: var(--sp-2);
+}
+
+.exp-item__list li {
+  list-style: disc;
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .exp-item {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ---------- Work experience / Education ---------- */
 .timeline-list {
   display: flex;
