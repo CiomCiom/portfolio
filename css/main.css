@@ -56,6 +56,7 @@
   display: flex;
   gap: var(--sp-10);
   padding-top: var(--sp-9);
+  padding-bottom: var(--sp-9);
   flex-wrap: wrap;
 }
 
