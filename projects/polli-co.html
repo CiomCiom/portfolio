@@ -95,6 +95,63 @@
             <p class="b5 project-text">The target audience is technically literate users aged 22–50 who understand the crypto market well but want to spend less time on operational decisions. Transparency, control, and speed are what they care about.</p>
         </section>
 
+
+ <!-- Key UX decisions< --> 
+<section class="section container section-border-top reveal">
+  <h2 class="h2 project-section__title">Some UX decisions</h2>
+
+  <div class="decision-block">
+    <h3 class="h3 decision-block__title">Decision 1: Reduced delegation from 7 steps to 3</h3>
+    <p class="b5 decision-block__text">
+     The original delegation flow required users to go through seven separate steps, including wallet connection, network and token selection, optimization settings, and validator selection. Too many decisions stood between the user and their actual goal: delegating their tokens.
+    </p>
+
+    <figure class="decision-block__diagram">
+      <img src="../images/polli-co/flow-old.png" alt="Old delegation flow, 7 steps" class="js-lightbox" />
+      <figcaption class="d7">Old flow</figcaption>
+    </figure>
+<p class="b5 decision-block__text">
+ I reduced the flow by removing unnecessary decision points rather than simply cutting screens. Wallet connection became a contextual action, related inputs and recommendations were brought together, and Polli began automatically suggesting the optimal strategy and validator set — while keeping those recommendations editable.
+    </p>
+
+    
+    <figure class="decision-block__diagram">
+      <img src="../images/polli-co/flow-new.jpg" alt="Updated delegation flow, 3 steps" class="js-lightbox"/>
+      <figcaption class="d7">Updated flow</figcaption>
+    </figure>
+  </div>
+
+  <div class="decision-block">
+    <h3 class="h3 decision-block__title">Decision 2: Streamlining withdrawals</h3>
+    <p class="b5 decision-block__text">
+      In some networks, it was possible to withdraw funds from multiple validators at once. This required designing a modal window that supported multiple selections, while ensuring the user wasn't overwhelmed with information.
+    </p>
+    <p class="b5 decision-block__text">
+      It was also decided to retain the option to withdraw from a single validator, including the ability to specify a token amount (an option that is technically unavailable for multiple validators). Thus, selecting a single validator would bring up an input field.
+    </p>
+
+    <figure class="decision-block__diagram">
+      <img src="../images/polli-co/withdraw-multi.jpg" alt="Withdrawal flow with multi-select" class="js-lightbox"/>
+      <figcaption class="d7">Option with multi-select</figcaption>
+    </figure>
+
+    <figure class="decision-block__diagram">
+      <img src="../images/polli-co/withdraw-single.jpg" alt="Withdrawal flow with single selector" class="js-lightbox"/>
+      <figcaption class="d7">Option with single selector</figcaption>
+    </figure>
+  </div>
+
+    <div class="decision-block">
+    <h3 class="h3 decision-block__title">Decision 3: Streamlining withdrawals</h3>
+    <p class="b5 decision-block__text">
+At the very first stage of the login process, the user needed to connect a wallet. However, we needed to indicate which wallets were installed in the browser but not yet connected, which ones were not installed at all, and which ones were already connected. To address this, we defined three wallet statuses. We also devised a color scheme for each status so that the user could intuitively understand what each one signified.</p>
+    <figure class="decision-block__diagram">
+      <img src="../images/polli-co/statuses.png" alt="Statuses for wallets" class="js-lightbox"/>
+      <figcaption class="d7">Statuses for wallets</figcaption>
+    </figure>
+  </div>
+</section>
+      
         <!-- PROCESS -->
         <section class="section container section-border-top reveal">
             <h2 class="h2 project-section__title">Process</h2>
@@ -223,62 +280,9 @@
                         </div>       
                     </div>
                 </div>
-            </div>
-          
+            </div>          
         </section>
 
-      
- <!-- Key UX decisions< --> 
-<section class="section container section-border-top reveal">
-  <h2 class="h2 project-section__title">Some UX decisions</h2>
-
-  <div class="decision-block">
-    <h3 class="h3 decision-block__title">Decision 1: Reduced delegation from 7 steps to 3</h3>
-    <p class="b5 decision-block__text">
-      Early flows were too long and created unnecessary cognitive load. I simplified the process into three key actions: choose delegation type, review AI recommendation, confirm delegation.
-    </p>
-
-    <figure class="decision-block__diagram">
-      <img src="../images/polli-co/flow-old.png" alt="Old delegation flow, 7 steps" class="js-lightbox" />
-      <figcaption class="d7">Old flow</figcaption>
-    </figure>
-
-    <figure class="decision-block__diagram">
-      <img src="../images/polli-co/flow-new.jpg" alt="Updated delegation flow, 3 steps" class="js-lightbox"/>
-      <figcaption class="d7">Updated flow</figcaption>
-    </figure>
-  </div>
-
-  <div class="decision-block">
-    <h3 class="h3 decision-block__title">Decision 2: Streamlining withdrawals</h3>
-    <p class="b5 decision-block__text">
-      In some networks, it was possible to withdraw funds from multiple validators at once. This required designing a modal window that supported multiple selections, while ensuring the user wasn't overwhelmed with information.
-    </p>
-    <p class="b5 decision-block__text">
-      It was also decided to retain the option to withdraw from a single validator, including the ability to specify a token amount (an option that is technically unavailable for multiple validators). Thus, selecting a single validator would bring up an input field.
-    </p>
-
-    <figure class="decision-block__diagram">
-      <img src="../images/polli-co/withdraw-multi.jpg" alt="Withdrawal flow with multi-select" class="js-lightbox"/>
-      <figcaption class="d7">Option with multi-select</figcaption>
-    </figure>
-
-    <figure class="decision-block__diagram">
-      <img src="../images/polli-co/withdraw-single.jpg" alt="Withdrawal flow with single selector" class="js-lightbox"/>
-      <figcaption class="d7">Option with single selector</figcaption>
-    </figure>
-  </div>
-
-    <div class="decision-block">
-    <h3 class="h3 decision-block__title">Decision 3: Streamlining withdrawals</h3>
-    <p class="b5 decision-block__text">
-At the very first stage of the login process, the user needed to connect a wallet. However, we needed to indicate which wallets were installed in the browser but not yet connected, which ones were not installed at all, and which ones were already connected. To address this, we defined three wallet statuses. We also devised a color scheme for each status so that the user could intuitively understand what each one signified.</p>
-    <figure class="decision-block__diagram">
-      <img src="../images/polli-co/statuses.png" alt="Statuses for wallets" class="js-lightbox"/>
-      <figcaption class="d7">Statuses for wallets</figcaption>
-    </figure>
-  </div>
-</section>
 
   <!-- DESIGN SYSTEM -->
    <section class="section container section-border-top reveal">
