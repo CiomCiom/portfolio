@@ -99,7 +99,7 @@
  <!-- Key UX decisions< --> 
 <section class="section container section-border-top reveal">
   <h2 class="h2 project-section__title">Some UX decisions</h2>
-
+ <!-- Reduced delegation from 7 steps to 3< --> 
   <div class="decision-block">
     <h3 class="h3 decision-block__title">Reduced delegation from 7 steps to 3</h3>
     <p class="b5 decision-block__text">
@@ -130,7 +130,7 @@
       <figcaption class="d7">Updated flow</figcaption>
     </figure>
   </div>
-
+ <!-- Designing one withdrawal flow for two scenarios< --> 
   <div class="decision-block">
     <h3 class="h3 decision-block__title">Designing one withdrawal flow for two scenarios</h3>
     <p class="b5 decision-block__text">
@@ -161,7 +161,37 @@
       <figcaption class="d7">Option with single selector</figcaption>
     </figure>
   </div>
+   <!-- Making automated actions visible< --> 
+  <div class="decision-block">
+    <h3 class="h3 decision-block__title">Making automated actions visible</h3>
+    <p class="b5 decision-block__text">
+     Polli continuously performs actions on the user's behalf, but much of this activity happens in the background. The original rewards chart showed performance over time, but didn't clearly explain what the system was doing along the way.
+    </p>
 
+    <figure class="decision-block__diagram">
+      <img src="../images/polli-co/chart_old.png" alt="Old chart with description" class="js-lightbox" />
+      <figcaption class="d7">Old flow</figcaption>
+    </figure>
+<p class="b4" style="margin-top: var(--sp-3);">Connecting the chart with activity history</p>
+<p class="b5 decision-block__text">I added clear descriptions for each action type, creating a direct connection between the icons on the rewards chart and the detailed data in the activity history. Users could now recognize the same actions across both views and understand how they relate.</p>
+
+  <p class="b4" style="margin-top: var(--sp-3);">Making background actions visible</p>
+<p class="b5 decision-block__text">Delegation, redelegation, undelegation, and compounding were brought directly into the rewards timeline. Instead of seeing performance in isolation, users could understand what Polli was doing at different points in time.</p>
+  
+  <p class="b4" style="margin-top: var(--sp-3);">Creating a network-agnostic visual language</p>
+<p class="b5 decision-block__text">I redesigned the action icons to be independent of any specific network, creating a consistent visual language that could scale across different networks and themes.</p>
+<ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
+    <li>
+      <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+      <span><strong>The result:</strong> the rewards chart became more than a performance view — it also explains Polli’s activity, helping users connect automated actions with the data and results they see.</span>
+    </li>
+  </ul>
+    
+    <figure class="decision-block__diagram">
+      <img src="../images/polli-co/chart_new.png" alt="Updated delegation flow, 3 steps" class="js-lightbox"/>
+      <figcaption class="d7">Updated flow</figcaption>
+    </figure>
+  </div>
     <div class="decision-block">
     <h3 class="h3 decision-block__title">Decision 3: Streamlining withdrawals</h3>
     <p class="b5 decision-block__text">
