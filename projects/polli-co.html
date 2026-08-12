@@ -101,7 +101,7 @@
   <h2 class="h2 project-section__title">Some UX decisions</h2>
 
   <div class="decision-block">
-    <h3 class="h3 decision-block__title">Decision 1: Reduced delegation from 7 steps to 3</h3>
+    <h3 class="h3 decision-block__title">Reduced delegation from 7 steps to 3</h3>
     <p class="b5 decision-block__text">
      The original delegation flow required users to go through seven separate steps, including wallet connection, network and token selection, optimization settings, and validator selection. Too many decisions stood between the user and their actual goal: delegating their tokens.
     </p>
@@ -132,14 +132,25 @@
   </div>
 
   <div class="decision-block">
-    <h3 class="h3 decision-block__title">Decision 2: Streamlining withdrawals</h3>
+    <h3 class="h3 decision-block__title">Designing one withdrawal flow for two scenarios</h3>
     <p class="b5 decision-block__text">
-      In some networks, it was possible to withdraw funds from multiple validators at once. This required designing a modal window that supported multiple selections, while ensuring the user wasn't overwhelmed with information.
+      Withdrawals had to support both single and multiple validator selection, but each scenario required different behavior. With one validator selected, users could specify the withdrawal amount. With multiple validators, the amount was determined automatically by the combined validator balance.
     </p>
     <p class="b5 decision-block__text">
-      It was also decided to retain the option to withdraw from a single validator, including the ability to specify a token amount (an option that is technically unavailable for multiple validators). Thus, selecting a single validator would bring up an input field.
-    </p>
+     The challenge was to support both scenarios without introducing separate flows or overwhelming users with validator-specific information.</p>
+   
+    <p class="b4" style="margin-top: var(--sp-3);">One flow that adapts to the selection</p>
+<p class="b5 decision-block__text">Instead of asking users upfront whether they wanted to withdraw from one or multiple validators, I designed a single selection flow that adapts automatically. When one validator is selected, an amount field appears and can be edited. When multiple validators are selected, the field is removed and the total withdrawal amount is calculated automatically.</p>
 
+     <p class="b4" style="margin-top: var(--sp-3);">Keeping validator information focused</p>
+<p class="b5 decision-block__text">Because validator selection was already adding complexity to the withdrawal flow, I kept each validator focused on the information needed to make the selection, rather than exposing additional technical details.</p>
+
+    <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
+    <li>
+      <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+      <span><strong>The result:</strong> both withdrawal scenarios work within the same interface, while the UI only introduces additional input when the user's selection requires it.</span>
+    </li>
+  </ul>
     <figure class="decision-block__diagram">
       <img src="../images/polli-co/withdraw-multi.jpg" alt="Withdrawal flow with multi-select" class="js-lightbox"/>
       <figcaption class="d7">Option with multi-select</figcaption>
