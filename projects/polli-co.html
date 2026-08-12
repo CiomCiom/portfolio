@@ -102,26 +102,19 @@
  <!-- Reduced delegation from 7 steps to 3< --> 
   <div class="decision-block">
     <h3 class="h3 decision-block__title">Reduced delegation from 7 steps to 3</h3>
-    <p class="b5 decision-block__text">
-     The original delegation flow required users to go through seven separate steps, including wallet connection, network and token selection, optimization settings, and validator selection. Too many decisions stood between the user and their actual goal: delegating their tokens.
-    </p>
+   <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
+<p class="b5 decision-block__text">The original delegation flow required users to go through seven separate steps before reaching their goal. Wallet connection, configuration, optimization settings, and validator selection all required separate actions, creating unnecessary friction and cognitive load.</p>
 
     <figure class="decision-block__diagram">
       <img src="../images/polli-co/flow-old.png" alt="Old delegation flow, 7 steps" class="js-lightbox" />
       <figcaption class="d7">Old flow</figcaption>
     </figure>
-<p class="b4" style="margin-top: var(--sp-3);">Wallet connection → contextual action</p>
-<p class="b5 decision-block__text">Instead of treating wallet connection as a separate step, I embedded it into the flow at the moment it was needed. This made it feel like part of the task rather than an additional prerequisite.</p>
-
-  <p class="b4" style="margin-top: var(--sp-3);">Separate decisions → one informed step</p>
-<p class="b5 decision-block__text">I combined network and token selection with optimization information and the recommended validator set, bringing related information and decisions into one place.</p>
-  
-  <p class="b4" style="margin-top: var(--sp-3);">Manual configuration → smart defaults</p>
-<p class="b5 decision-block__text">Polli now determines the optimization approach and recommends the most suitable validators automatically. Users don't need to configure everything upfront, but can still adjust the validator set if they want more control.</p>
+<p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
+<p class="b5 decision-block__text">I reduced the flow by removing unnecessary decision points rather than simply cutting screens. Wallet connection became a contextual action, related inputs and recommendations were brought together, and Polli began automatically suggesting the optimal strategy and validator set - while keeping those recommendations editable.</p>
 <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
     <li>
       <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
-      <span><strong>The result:</strong> a 7-step process became a 3-step flow, with fewer decisions required from the user while keeping advanced controls available.</span>
+      <span><strong>The result:</strong> 7 → 3 steps, with fewer decisions required from the user while keeping control available when needed.</span>
     </li>
   </ul>
     
@@ -134,22 +127,16 @@
  <!-- Designing one withdrawal flow for two scenarios< --> 
   <div class="decision-block">
     <h3 class="h3 decision-block__title">Designing one withdrawal flow for two scenarios</h3>
-    <p class="b5 decision-block__text">
-      Withdrawals had to support both single and multiple validator selection, but each scenario required different behavior. With one validator selected, users could specify the withdrawal amount. With multiple validators, the amount was determined automatically by the combined validator balance.
-    </p>
-    <p class="b5 decision-block__text">
-     The challenge was to support both scenarios without introducing separate flows or overwhelming users with validator-specific information.</p>
+      <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
+<p class="b5 decision-block__text">Withdrawals had to support both single and multiple validator selection, but each scenario required different behavior. With one validator selected, users could specify the withdrawal amount; with multiple validators, the amount had to be calculated automatically from their combined balance.</p>
    
-    <p class="b4" style="margin-top: var(--sp-3);">One flow that adapts to the selection</p>
-<p class="b5 decision-block__text">Instead of asking users upfront whether they wanted to withdraw from one or multiple validators, I designed a single selection flow that adapts automatically. When one validator is selected, an amount field appears and can be edited. When multiple validators are selected, the field is removed and the total withdrawal amount is calculated automatically.</p>
-
-     <p class="b4" style="margin-top: var(--sp-3);">Keeping validator information focused</p>
-<p class="b5 decision-block__text">Because validator selection was already adding complexity to the withdrawal flow, I kept each validator focused on the information needed to make the selection, rather than exposing additional technical details.</p>
+     <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
+<p class="b5 decision-block__text">Instead of asking users to choose a withdrawal type upfront or creating two separate flows, I designed one adaptive modal. The amount field appears when a single validator is selected and disappears when multiple validators are selected, while the total updates automatically.</p>
 
     <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
     <li>
       <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
-      <span><strong>The result:</strong> both withdrawal scenarios work within the same interface, while the UI only introduces additional input when the user's selection requires it.</span>
+      <span><strong>The result:</strong> two technically different withdrawal scenarios work within one consistent flow, with the interface introducing complexity only when it is needed.</span>
     </li>
   </ul>
     <figure class="decision-block__diagram">
@@ -166,26 +153,20 @@
    <!-- Making automated actions visible< --> 
   <div class="decision-block">
     <h3 class="h3 decision-block__title">Making automated actions visible</h3>
-    <p class="b5 decision-block__text">
-     Polli continuously performs actions on the user's behalf, but much of this activity happens in the background. The original rewards chart showed performance over time, but didn't clearly explain what the system was doing along the way.
-    </p>
+    <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
+<p class="b5 decision-block__text">Polli performs optimization actions in the background, but the original rewards chart focused primarily on performance. Users could see how their rewards changed over time without a clear connection to what Polli was doing along the way.</p>
 
     <figure class="decision-block__diagram">
       <img src="../images/polli-co/chart_old.png" alt="Old chart with description" class="js-lightbox" />
       <figcaption class="d7">Old chart</figcaption>
     </figure>
-<p class="b4" style="margin-top: var(--sp-3);">Connecting the chart with activity history</p>
-<p class="b5 decision-block__text">I added clear descriptions for each action type, creating a direct connection between the icons on the rewards chart and the detailed data in the activity history. Users could now recognize the same actions across both views and understand how they relate.</p>
-
-  <p class="b4" style="margin-top: var(--sp-3);">Making background actions visible</p>
-<p class="b5 decision-block__text">Delegation, redelegation, undelegation, and compounding were brought directly into the rewards timeline. Instead of seeing performance in isolation, users could understand what Polli was doing at different points in time.</p>
+<p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
+<p class="b5 decision-block__text">I brought delegation, redelegation, undelegation, and compounding events directly into the rewards timeline and connected them with the same actions in the activity history. I also redesigned the action icons into a network-agnostic system that could remain consistent across different networks and themes.</p>
   
-  <p class="b4" style="margin-top: var(--sp-3);">Creating a network-agnostic visual language</p>
-<p class="b5 decision-block__text">I redesigned the action icons to be independent of any specific network, creating a consistent visual language that could scale across different networks and themes.</p>
 <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
     <li>
       <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
-      <span><strong>The result:</strong> the rewards chart became more than a performance view — it also explains Polli’s activity, helping users connect automated actions with the data and results they see.</span>
+      <span><strong>The result:</strong> The chart now connects performance with Polli’s activity, helping users understand not only what changed, but what happened along the way.</span>
     </li>
   </ul>
     
@@ -196,12 +177,22 @@
   </div>
 
   
-   <!-- Streamlining withdrawals< --> 
+   <!-- Making wallet states easy to recognize< --> 
     <div class="decision-block">
-    <h3 class="h3 decision-block__title">Decision 3: Streamlining withdrawals</h3>
-    <p class="b5 decision-block__text">
-At the very first stage of the login process, the user needed to connect a wallet. However, we needed to indicate which wallets were installed in the browser but not yet connected, which ones were not installed at all, and which ones were already connected. To address this, we defined three wallet statuses. We also devised a color scheme for each status so that the user could intuitively understand what each one signified.</p>
-    <figure class="decision-block__diagram">
+    <h3 class="h3 decision-block__title">Making wallet states easy to recognize</h3>
+     <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
+<p class="b5 decision-block__text">With multiple supported wallets, users needed to quickly distinguish between three states: connected, installed but disconnected, and not installed. These states also required different next actions.</p>
+  <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
+<p class="b5 decision-block__text">I created distinct visual treatments for each state, using color and status cues to communicate both the wallet’s current condition and the action available to the user — continue with the connected wallet, connect an existing one, or install a missing extension.</p>
+  
+      <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
+    <li>
+      <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+      <span><strong>The result:</strong> users can scan the available wallets, understand their state at a glance, and immediately see what they need to do next.</span>
+    </li>
+  </ul>
+    
+      <figure class="decision-block__diagram">
       <img src="../images/polli-co/statuses.png" alt="Statuses for wallets" class="js-lightbox"/>
       <figcaption class="d7">Statuses for wallets</figcaption>
     </figure>
