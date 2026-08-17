@@ -113,8 +113,6 @@
       <span><strong>The result:</strong> Users can experience the core value of Meal.Prep before being asked to create an account, while their previous choices carry into the next step.</span>
     </li>
   </ul>
-    
-     
     <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";>
       <img src="../images/meal-prep/decision-guest_mode.png" alt="Letting users start before signing up" class="js-lightbox"/>
       <figcaption class="d7">Letting users start before signing up</figcaption>
@@ -124,13 +122,10 @@
     <!-- Turning meal planning into a guided flow< --> 
    <div class="decision-block">
       <h3 class="h3 decision-block__title">Turning meal planning into a guided flow</h3>
-
        <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
-<p class="b5 decision-block__text">Creating a meal plan requires users to make several connected choices — dietary preferences, meal type, plan duration, and other options. Showing everything at once would make ordering feel unnecessarily complex.</p>
-    
-  <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
-<p class="b5 decision-block__text">Break the configuration into a guided sequence, grouping related choices and showing users only the information needed at each stage.</p>
-
+       <p class="b5 decision-block__text">Creating a meal plan requires users to make several connected choices — dietary preferences, meal type, plan duration, and other options. Showing everything at once would make ordering feel unnecessarily complex.</p>  
+       <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
+       <p class="b5 decision-block__text">Break the configuration into a guided sequence, grouping related choices and showing users only the information needed at each stage.</p>
 <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
     <li>
       <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
@@ -143,8 +138,25 @@
     </figure>
   </div>
 
- 
- 
+ <!-- Making recurring delivery flexible< --> 
+   <div class="decision-block">
+      <h3 class="h3 decision-block__title">Making recurring delivery flexible</h3>
+       <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
+       <p class="b5 decision-block__text">A multi-day meal plan cannot assume the same delivery schedule works every day. Users may need to choose when deliveries begin, select a convenient time window, or skip particular days.</p>  
+       <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
+       <p class="b5 decision-block__text">I kept delivery scheduling inside the order flow, allowing users to set the first delivery date and time window and add days off without leaving their meal plan.</p>
+<ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
+    <li>
+      <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+      <span><strong>The result:</strong> Users can adapt a recurring meal plan to their actual schedule before committing to the order.</span>
+    </li>
+  </ul>
+    <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";>
+      <img src="../images/meal-prep/create_order.png" alt="Delivery settings" class="js-lightbox"/>
+      <figcaption class="d7">Delivery settings</figcaption>
+    </figure>
+  </div>
+  
 
     <div class="decision-block">
         <h3 class="h3 decision-block__title">Collapsible parts</h3>
