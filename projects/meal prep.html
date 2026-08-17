@@ -93,6 +93,46 @@
             <p class="b5 project-text">A person aged 20 to 40; gender does not matter. The user is a busy individual who enjoys planning, values ​​their time, and cares about their health. Eating a healthy diet is important to them.</p>
         </section>
 
+ <!-- Selected UX Decisions< --> 
+<section class="section container section-border-top reveal">
+  <h2 class="h2 project-section__title">Selected UX Decisions</h2>
+
+  <div class="decision-block">
+      <h3 class="h3 decision-block__title">Create not just a chat, but a chat with frequently asked questions.</h3>
+      <p class="b5 decision-block__text">
+      The initial design did not include an FAQ section; there was simply a support chat. However, after some consideration, we decided to add one. A minor challenge arose: we needed not only to add the section but also to ensure users could return to it after opening the chat page. We also wanted to avoid fixing it in place, as is often done with website chat widgets. Consequently, we separated the two screens, keeping the chat and the FAQ page distinct.
+      </p>
+
+    <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";>
+      <img src="../images/meal-prep/decision-chat.png" alt="Chat with FAQ section" class="js-lightbox" />
+      <figcaption class="d7">Chat view</figcaption>
+    </figure>
+  </div>
+
+  <div class="decision-block">
+      <h3 class="h3 decision-block__title">Guest modes</h3>
+      <p class="b5 decision-block__text">
+          To engage the user immediately, it was decided to allow them to proceed through several screens as a guest before requiring registration. This will clearly increase the number of users who complete the process. By the time they are asked to register or log in, the user will have already selected their dietary preferences.
+      </p>
+
+    <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";>
+      <img src="../images/meal-prep/decision-guest_mode.png" alt="Guest mode for user" class="js-lightbox"/>
+      <figcaption class="d7">Guest mode</figcaption>
+    </figure>
+  </div>
+
+    <div class="decision-block">
+        <h3 class="h3 decision-block__title">Collapsible parts</h3>
+        <p class="b5 decision-block__text">
+            Since this is a mobile app, we had to account for limited screen real estate, especially given the use of fixed buttons and menus—not to mention the device's status bar and home indicator. Consequently, we decided to make certain elements collapsible to save space. For instance, we applied this approach to the order details on the payment page; while the information is significant overall, it is less critical at that specific stage, so we collapsed the section. This freed up space for more important information regarding payment methods.    <figure class="decision-block__diagram">
+                 <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";> 
+              <img src="../images/meal-prep/decision-hide-details.png" alt="Hiden elements in Meal.prep" class="js-lightbox" />
+                <figcaption class="d7">Order view</figcaption>
+            </figure>
+</div>
+</section>
+      
+      
         <!-- PROCESS -->
         <section class="section container section-border-top reveal">
             <h2 class="h2 project-section__title">Process</h2>
@@ -101,12 +141,6 @@
             <img src="../images/meal-prep/process-diagram.png" alt="Process timeline: Phase 1 Analysis, Phase 2 Design, Phase 3 Build" style="margin-top: var(--sp-4); width: 100%;" class="js-lightbox" />
 
         </section>
-
-        <!-- HOW THE WORK UNFOLDED -->
-        <section class="section container section-border-top">
-            <h2 class="h2 project-section__title reveal">How the work unfolded</h2>
-            <p class="b5 project-text reveal">I have outlined the key steps I took to achieve the final result. The app hasn't launched yet, but it should be available on the App Store and Play Store soon.
-</p>
 
             <!-- Comp Research -->
             <div class="work-block reveal">
@@ -186,20 +220,40 @@
             </div>
             <div class="section-divider"></div>
 
-            <!-- Design System -->
+            <!-- Mobile Application -->
             <div class="work-block reveal">
                 <div class="work-block__grid">
                     <div>
                         <div class="work-block__phase d6">Phase 2</div>
-                        <h3 class="work-block__title">Design System</h3>
+                        <h3 class="work-block__title">Mobile app UI and improved UX</h3>
                         <div class="tags-list">
-                            <span class="tag">Tokens</span>
-                            <span class="tag">Components</span>
-                            <span class="tag">Dev docs</span>
-                            <span class="tag">Built from scratch</span>
+                            <span class="tag">Mobile App</span>
+                            <span class="tag">UI</span>
+                            <span class="tag">UX</span>
                         </div>
                     </div>
                     <div>
+                        <p class="b5">During the actual app design process, certain shortcomings—such as pages for additional information—came to light that had been overlooked during the prototyping stage. These elements were incorporated directly during the design phase. Overall, the app is quite compact, yet it successfully fulfills its intended purpose: enabling users to order food for several days.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="../images/meal-prep/flow_sign-in.png" alt="Sign In Flow" style="margin-top: var(--sp-3); width: 100%;" class="js-lightbox" />
+                    <p class="work-block__caption d7">Sign In flow</p>
+                </div>
+                <div>
+                    <img src="../images/meal-prep/flow-general.png" alt="General flow" style="margin-top: var(--sp-2); width: 100%;" class="js-lightbox" />
+                    <p class="work-block__caption d7">General flow</p>
+                </div>
+                <div>
+                    <img src="../images/meal-prep/flow-other.png" alt="Other pages" style="margin-top: var(--sp-2); width: 100%;" class="js-lightbox" />
+                    <p class="work-block__caption d7">Orders/Profile/Chat</p>
+                </div>
+            </div>
+        </section>
+      
+
+       <!-- DESIGN SYSTEM -->
+            <div class="work-block reveal">
                         <p class="b5">A design system is the foundation of any design, as it ensures consistency and helps avoid errors. I always create design systems for the projects I work on, even for single-page sites. This benefits both me and the developer, as they have all the information needed to build the site. In my designs, I aim to follow an 8-pixel grid.</p>
                         <p class="b5">The design system for this project wasn't large or complex, but it really streamlined the work on the application, allowing me to complete the design quite quickly.</p>
                         <div class="design-system-grid">
@@ -254,76 +308,7 @@
             </div>
             <div class="section-divider"></div>
 
-            <!-- Mobile Application -->
-            <div class="work-block reveal">
-                <div class="work-block__grid">
-                    <div>
-                        <div class="work-block__phase d6">Phase 2</div>
-                        <h3 class="work-block__title">Mobile app UI and improved UX</h3>
-                        <div class="tags-list">
-                            <span class="tag">Mobile App</span>
-                            <span class="tag">UI</span>
-                            <span class="tag">UX</span>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="b5">During the actual app design process, certain shortcomings—such as pages for additional information—came to light that had been overlooked during the prototyping stage. These elements were incorporated directly during the design phase. Overall, the app is quite compact, yet it successfully fulfills its intended purpose: enabling users to order food for several days.</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="../images/meal-prep/flow_sign-in.png" alt="Sign In Flow" style="margin-top: var(--sp-3); width: 100%;" class="js-lightbox" />
-                    <p class="work-block__caption d7">Sign In flow</p>
-                </div>
-                <div>
-                    <img src="../images/meal-prep/flow-general.png" alt="General flow" style="margin-top: var(--sp-2); width: 100%;" class="js-lightbox" />
-                    <p class="work-block__caption d7">General flow</p>
-                </div>
-                <div>
-                    <img src="../images/meal-prep/flow-other.png" alt="Other pages" style="margin-top: var(--sp-2); width: 100%;" class="js-lightbox" />
-                    <p class="work-block__caption d7">Orders/Profile/Chat</p>
-                </div>
-            </div>
-        </section>
       
- <!-- Key UX decisions< --> 
-<section class="section container section-border-top reveal">
-  <h2 class="h2 project-section__title">Some UX decisions</h2>
-
-  <div class="decision-block">
-      <h3 class="h3 decision-block__title">Decision 1: Create not just a chat, but a chat with frequently asked questions.</h3>
-      <p class="b5 decision-block__text">
-      The initial design did not include an FAQ section; there was simply a support chat. However, after some consideration, we decided to add one. A minor challenge arose: we needed not only to add the section but also to ensure users could return to it after opening the chat page. We also wanted to avoid fixing it in place, as is often done with website chat widgets. Consequently, we separated the two screens, keeping the chat and the FAQ page distinct.
-      </p>
-
-    <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";>
-      <img src="../images/meal-prep/decision-chat.png" alt="Chat with FAQ section" class="js-lightbox" />
-      <figcaption class="d7">Chat view</figcaption>
-    </figure>
-  </div>
-
-  <div class="decision-block">
-      <h3 class="h3 decision-block__title">Decision 2: Guest modes</h3>
-      <p class="b5 decision-block__text">
-          To engage the user immediately, it was decided to allow them to proceed through several screens as a guest before requiring registration. This will clearly increase the number of users who complete the process. By the time they are asked to register or log in, the user will have already selected their dietary preferences.
-      </p>
-
-    <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";>
-      <img src="../images/meal-prep/decision-guest_mode.png" alt="Guest mode for user" class="js-lightbox"/>
-      <figcaption class="d7">Guest mode</figcaption>
-    </figure>
-  </div>
-
-    <div class="decision-block">
-        <h3 class="h3 decision-block__title">Decision 3: Collapsible parts</h3>
-        <p class="b5 decision-block__text">
-            Since this is a mobile app, we had to account for limited screen real estate, especially given the use of fixed buttons and menus—not to mention the device's status bar and home indicator. Consequently, we decided to make certain elements collapsible to save space. For instance, we applied this approach to the order details on the payment page; while the information is significant overall, it is less critical at that specific stage, so we collapsed the section. This freed up space for more important information regarding payment methods.    <figure class="decision-block__diagram">
-                 <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";> 
-              <img src="../images/meal-prep/decision-hide-details.png" alt="Hiden elements in Meal.prep" class="js-lightbox" />
-                <figcaption class="d7">Order view</figcaption>
-            </figure>
-</div>
-</section>
-
         <!-- WHERE THE PROJECT LANDED -->
 <section class="section container section-border-top reveal">
     <h2 class="h2 project-section__title">Where the project landed</h2>
