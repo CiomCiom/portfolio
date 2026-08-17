@@ -156,17 +156,25 @@
       <figcaption class="d7">Delivery settings</figcaption>
     </figure>
   </div>
-  
 
-    <div class="decision-block">
-        <h3 class="h3 decision-block__title">Collapsible parts</h3>
-        <p class="b5 decision-block__text">
-            Since this is a mobile app, we had to account for limited screen real estate, especially given the use of fixed buttons and menus—not to mention the device's status bar and home indicator. Consequently, we decided to make certain elements collapsible to save space. For instance, we applied this approach to the order details on the payment page; while the information is significant overall, it is less critical at that specific stage, so we collapsed the section. This freed up space for more important information regarding payment methods.    <figure class="decision-block__diagram">
-                 <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";> 
+   <!-- Making recurring delivery flexible< --> 
+   <div class="decision-block">
+      <h3 class="h3 decision-block__title">Prioritizing payment over order details</h3>
+       <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
+       <p class="b5 decision-block__text">On the payment screen, users still need access to their order details, but displaying the full summary competes with the information required to complete payment.</p>  
+       <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
+       <p class="b5 decision-block__text">I made the order summary collapsible: the key information remains visible and the full details stay accessible, without dominating the screen.</p>
+<ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
+    <li>
+      <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+      <span><strong>The result:</strong> Payment methods receive visual priority while users can still review their order whenever needed.</span>
+    </li>
+  </ul>
+     <figure class="decision-block__diagram" style="margin-top: var(--sp-3)";> 
               <img src="../images/meal-prep/decision-hide-details.png" alt="Hiden elements in Meal.prep" class="js-lightbox" />
                 <figcaption class="d7">Order view</figcaption>
             </figure>
-</div>
+  </div>
 </section>
       
       
