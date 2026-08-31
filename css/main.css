@@ -11,7 +11,7 @@
 /* ---------- Intro (Design is a system...) ---------- */
 .intro {
   display: grid;
-  grid-template-columns: 1fr 560px;
+  grid-template-columns: 1fr 680px;
   gap: var(--sp-6);
   align-items: start;
 }
