@@ -11,7 +11,7 @@
 /* ---------- Intro (Design is a system...) ---------- */
 .intro {
   display: grid;
-  grid-template-columns: 1fr 680px;
+  grid-template-columns: 1fr 380px;
   gap: var(--sp-6);
   align-items: start;
 }
@@ -54,6 +54,7 @@
   }
   .intro__photo {
     order: -1;
+    width: 100%;
   }
 }
 
