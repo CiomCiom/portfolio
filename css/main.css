@@ -56,13 +56,17 @@
 @media (max-width: 900px) {
   .intro {
     grid-template-columns: 1fr;
+    gap: var(--sp-4);
   }
   .intro__photo {
     order: -1;
     width: 100%;
   }
+  .intro__photo img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+  }
 }
-
 /* ---------- Stats ---------- */
 .stats {
   display: flex;
