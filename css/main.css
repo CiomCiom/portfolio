@@ -7,6 +7,11 @@
   padding-top: var(--sp-10);
   padding-bottom: var(--sp-9);
 }
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 40px !important;
+  }
+}
 
 /* ---------- Intro (Design is a system...) ---------- */
 .intro {
