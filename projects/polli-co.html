@@ -6,12 +6,21 @@
   <title>Polli.co — Statkevich Anastasiya</title>
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="../css/project.css" />
+  <!-- Язык: прячем страницу на долю секунды, пока подставляется русский текст -->
+  <script>try{var l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('lang')||(/^(ru|be)\b/.test((navigator.language||'').toLowerCase())?'ru':'en');if(l==='ru'){document.documentElement.classList.add('i18n-pending');setTimeout(function(){document.documentElement.classList.remove('i18n-pending')},1500)}}catch(e){}</script>
 </head>
 <body>
 
     <header class="site-header container">
         <a href="../index.html" class="site-header__name">Statkevich Anastasiya</a>
-        <a href="../index.html" class="site-header__link">Main page</a>
+        <div class="site-header__actions">
+            <a href="../index.html" class="site-header__link">Main page</a>
+            <div class="lang-switch" role="group" aria-label="Language" data-no-translate>
+            <button type="button" class="lang-switch__btn" data-set-lang="en" aria-pressed="true">EN</button>
+            <span class="lang-switch__sep" aria-hidden="true">/</span>
+            <button type="button" class="lang-switch__btn" data-set-lang="ru" aria-pressed="false">RU</button>
+          </div>
+        </div>
     </header>
 
     <main>
@@ -405,6 +414,8 @@
             </div>
         </footer>
     </main>
+    <script src="../js/i18n-ru.js"></script>
+    <script src="../js/i18n.js"></script>
     <script src="../js/cursor.js"></script>
     <script src="../js/reveal.js"></script>
     <script src="../js/main.js"></script>

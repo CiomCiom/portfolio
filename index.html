@@ -6,8 +6,18 @@
   <title>Statkevich Anastasiya — UX/UI Designer</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/main.css" />
+  <!-- Язык: прячем страницу на долю секунды, пока подставляется русский текст -->
+  <script>try{var l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('lang')||(/^(ru|be)\b/.test((navigator.language||'').toLowerCase())?'ru':'en');if(l==='ru'){document.documentElement.classList.add('i18n-pending');setTimeout(function(){document.documentElement.classList.remove('i18n-pending')},1500)}}catch(e){}</script>
 </head>
 <body>
+
+  <header class="home-topbar container">
+        <div class="lang-switch" role="group" aria-label="Language" data-no-translate>
+          <button type="button" class="lang-switch__btn" data-set-lang="en" aria-pressed="true">EN</button>
+          <span class="lang-switch__sep" aria-hidden="true">/</span>
+          <button type="button" class="lang-switch__btn" data-set-lang="ru" aria-pressed="false">RU</button>
+        </div>
+  </header>
 
   <main>
     <!-- HERO -->
@@ -192,7 +202,7 @@
 
             <div class="latest-work">
         <div class="latest-work__image">
-          <a href="projects/meal-prep.html">
+          <a href="projects/meal prep.html">
             <img src="images/meal-prep-cover.png" alt="Meal.prep project cover" />
           </a>
         </div>
@@ -328,7 +338,9 @@
       </div>
     </footer>
   </main>
-  <script src="js/cursor.js"></script>
+  <script src="js/i18n-ru.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/cursor.js"></script>
   <script src="js/reveal.js"></script>
   <script src="js/main.js"></script>
 </body>
