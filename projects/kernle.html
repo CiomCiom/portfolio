@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kernle — Statkevich Anastasiya</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/project.css" />
+  <!-- Язык: прячем страницу на долю секунды, пока подставляется русский текст -->
+  <script>try{var l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('lang')||(/^(ru|be)\b/.test((navigator.language||'').toLowerCase())?'ru':'en');if(l==='ru'){document.documentElement.classList.add('i18n-pending');setTimeout(function(){document.documentElement.classList.remove('i18n-pending')},1500)}}catch(e){}</script>
+</head>
+<body>
+
+    <header class="site-header container">
+        <a href="../index.html" class="site-header__name">Statkevich Anastasiya</a>
+        <div class="site-header__actions">
+            <a href="../index.html" class="site-header__link">Main page</a>
+            <div class="lang-switch" role="group" aria-label="Language" data-no-translate>
+            <button type="button" class="lang-switch__btn" data-set-lang="en" aria-pressed="true">EN</button>
+            <span class="lang-switch__sep" aria-hidden="true">/</span>
+            <button type="button" class="lang-switch__btn" data-set-lang="ru" aria-pressed="false">RU</button>
+          </div>
+        </div>
+    </header>
+
+    <!--
+      КАК ДОБАВИТЬ ИЗОБРАЖЕНИЯ И ВИДЕО
+      Все файлы ждут в папке images/kernle/ (создайте её рядом с images/polli-co/).
+      Положите туда файлы с такими же именами, как в src ниже, — или поменяйте src на свои.
+      Видео: MP4 (H.264), без звука, лучше 2–6 МБ. poster — кадр, который виден до загрузки видео.
+      Если меняете английский текст, поменяйте его и в js/i18n-ru.js (левая часть).
+    -->
+
+    <main>
+        <!-- PROJECT HERO -->
+        <section class="project-hero container">
+            <h1 class="h1">Kernle</h1>
+            <p class="project-hero__subtitle h3">Directing AI to design and build a chatbot builder — from moodboard to live prototype.</p>
+            <p class="b5" style="margin-top: var(--sp-5); max-width: 845px;">As the sole designer, I created Kernle through vibe coding: I described the product in prompts, and AI wrote the code. My job was everything the code could not decide on its own — art direction, the design system, motion, and the rules that kept a fast AI workflow from breaking a working product.</p>
+
+            <div class="project-hero__meta">
+                <div class="project-hero__meta-item">
+                    <span class="project-hero__meta-value h2">2026</span>
+                    <span class="project-hero__meta-label d5">Year</span>
+                </div>
+                <div class="project-hero__meta-item">
+                    <span class="project-hero__meta-value h2">Product Designer, AI-assisted build</span>
+                    <span class="project-hero__meta-label d5">Role</span>
+                </div>
+                <div class="project-hero__meta-item">
+                    <span class="project-hero__meta-value h2">Web app + Website</span>
+                    <span class="project-hero__meta-label d5">Platform</span>
+                </div>
+                <div class="project-hero__meta-item">
+                    <span class="project-hero__meta-value h2">Art direction, UI, Design System, Motion, Prompting, Prototyping</span>
+                    <span class="project-hero__meta-label d5">Scope</span>
+                </div>
+            </div>
+
+            <div class="project-hero__image">
+                <!-- ЗАМЕНИТЬ: мокап Kernle на ноутбуке -->
+                <img src="../images/kernle/hero.jpg" alt="Kernle — laptop mockup" />
+            </div>
+        </section>
+
+        <!-- CHALLENGE -->
+        <section class="section container reveal">
+            <h2 class="h2 project-section__title">Challenge</h2>
+            <p class="b5 project-text">How might we turn the wait while a bot learns from documents into a moment that explains what is happening — and give the whole product a distinctive visual identity — without writing code by hand and without breaking the app’s logic?</p>
+        </section>
+
+      <!-- MY ROLE -->
+        <section class="section container section-border-top">
+            <h2 class="h2 project-section__title">My role</h2>
+          <p class="b5 project-text" style="margin-bottom: var(--sp-4)">Sole Designer | Vibe coding with Lovable | End-to-end ownership</p>
+            <div class="role-grid">
+                <ul class="role-checklist b5">
+                    <li>
+                        <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+                        <span><strong>Full design cycle</strong> from moodboard to a deployed prototype, without hand-writing code</span>
+                    </li>
+                    <li>
+                        <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+                        <span>A <strong>structured prompt system</strong> with logic guards, so the redesign never touched auth, onboarding, billing, or data</span>
+                    </li>
+                    <li>
+                        <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+                        <span>Design system set up as global tokens first, so every page changed <strong>without losing consistency</strong></span>
+                    </li>
+                    <li>
+                        <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+                        <span>Kept the product <strong>fully bilingual (EN / RU)</strong> by routing all copy through the translation system</span>
+                    </li>
+                </ul>
+
+                <div class="role-list-large">
+                    <div class="role-list-large__label d7">Created</div>
+                    <div class="role-list-large__group">
+                        <div class="role-list-large__item">Landing page</div>
+                        <div class="role-list-large__item">Training loader</div>
+                        <div class="role-list-large__item">Design system</div>
+                        <div class="role-list-large__item">Web app restyle</div>
+                        <div class="role-list-large__item">Prompt system</div>
+                        <div class="role-list-large__item">Live prototype</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- USER -->
+        <section class="section container section-border-top reveal">
+            <h2 class="h2 project-section__title">User</h2>
+            <p class="b5 project-text">The target audience is small business owners, support and marketing teams, and non-technical founders who already have documentation or a help center. They want a support chatbot without involving developers. Speed, a bot that looks like their brand, and zero code are what they care about.</p>
+        </section>
+
+
+ <!-- Selected UX Decisions -->
+<section class="section container section-border-top reveal">
+  <h2 class="h2 project-section__title">Selected UX Decisions</h2>
+
+ <!-- Turning a 4-second timer into an explanation -->
+  <div class="decision-block">
+    <h3 class="h3 decision-block__title">Turning a 4-second timer into an explanation</h3>
+    <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
+    <p class="b5 decision-block__text">The original training screen was a 4.2-second timer with playful messages that had nothing to do with the user’s content. It filled the wait, but it did not show what was happening to the documents the user had just uploaded.</p>
+
+    <figure class="decision-block__diagram">
+      <!-- ЗАМЕНИТЬ: скриншот старого лоадера -->
+      <img src="../images/kernle/loader-old.jpg" alt="Old training loader with a progress bar" class="js-lightbox" />
+      <figcaption class="d7">Old loader</figcaption>
+    </figure>
+
+    <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
+    <p class="b5 decision-block__text">I designed a five-stage animation around a glowing “knowledge core”. The user’s real files and links, with their actual names, drift in and dissolve into the light. The glow shifts from cool blue to warm amber as the bot learns, and at the end the core unfolds into the bot’s first message. A Skip button and a reduced-motion version keep it respectful of the user’s time.</p>
+    <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
+      <li>
+        <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+        <span><strong>The result:</strong> the wait now explains the product — users see their own documents becoming a bot, instead of a generic progress bar.</span>
+      </li>
+    </ul>
+
+    <figure class="decision-block__diagram">
+      <!-- ЗАМЕНИТЬ: видео нового лоадера (MP4) и кадр-постер (JPG) -->
+      <video src="../images/kernle/loader.mp4" poster="../images/kernle/loader-poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="New training loader animation" style="width: 100%; display: block;"></video>
+      <figcaption class="d7">New loader</figcaption>
+    </figure>
+  </div>
+
+ <!-- From solid lines to soft light -->
+  <div class="decision-block">
+    <h3 class="h3 decision-block__title">From solid lines to soft light</h3>
+    <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
+    <p class="b5 decision-block__text">The first version of the loader was built from solid light ribbons. On its own it looked fine, but next to the soft, diffused halo on the landing page it felt like a different product.</p>
+
+    <figure class="decision-block__diagram">
+      <!-- ЗАМЕНИТЬ: первая версия лоадера с лентами (можно тоже видео) -->
+      <img src="../images/kernle/loader-ribbons.jpg" alt="First loader version with solid light ribbons" class="js-lightbox" />
+      <figcaption class="d7">First iteration</figcaption>
+    </figure>
+
+    <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
+    <p class="b5 decision-block__text">I rebuilt the core from layered, pre-blurred gradients with no hard edges, matching the hero halo. Progress stopped being a thin arc and became a brighter segment of light that slowly grows around the ring.</p>
+    <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
+      <li>
+        <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+        <span><strong>The result:</strong> the loader reads as a direct continuation of the landing page, and one visual idea now runs through the whole flow.</span>
+      </li>
+    </ul>
+
+    <figure class="decision-block__diagram">
+      <!-- ЗАМЕНИТЬ: финальный лоадер с мягким ореолом -->
+      <img src="../images/kernle/loader-final.jpg" alt="Final loader with a soft halo" class="js-lightbox" />
+      <figcaption class="d7">Final version</figcaption>
+    </figure>
+  </div>
+
+ <!-- Redesigning without breaking the product -->
+  <div class="decision-block">
+    <h3 class="h3 decision-block__title">Redesigning without breaking the product</h3>
+    <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
+    <p class="b5 decision-block__text">AI tools tend to rewrite whole components when asked for a redesign. In a working app, that puts sign-up, onboarding, the bot editor, billing, and translations at risk with every prompt.</p>
+
+    <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
+    <p class="b5 decision-block__text">Before changing anything, I asked the AI to audit the project and split files into visual and logic layers. Every prompt then opened with a guard that named the files it must not touch, changed one section at a time, and ended with a review step listing every changed file.</p>
+    <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
+      <li>
+        <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+        <span><strong>The result:</strong> a full visual overhaul of the app delivered in small, reviewable steps, with core flows left intact and every step easy to roll back.</span>
+      </li>
+    </ul>
+
+    <figure class="decision-block__diagram">
+      <!-- ЗАМЕНИТЬ: схема структуры промта -->
+      <img src="../images/kernle/prompt-system.jpg" alt="Prompt structure: guard, task, review" class="js-lightbox" />
+      <figcaption class="d7">Prompt system</figcaption>
+    </figure>
+  </div>
+
+ <!-- Keeping two languages in sync -->
+  <div class="decision-block">
+    <h3 class="h3 decision-block__title">Keeping two languages in sync</h3>
+    <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
+    <p class="b5 decision-block__text">The product works in English and Russian. New copy written straight into the code would break the Russian version, and gradient accents tied to English words would not carry over.</p>
+
+    <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
+    <p class="b5 decision-block__text">I made bilingual support a rule in every prompt: all text goes through the translation catalog, both languages are updated together, and visual accents like the gradient headline word are applied to the matching words in each language.</p>
+    <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
+      <li>
+        <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+        <span><strong>The result:</strong> both versions stay complete and visually equal, with no missing strings after the redesign.</span>
+      </li>
+    </ul>
+
+    <figure class="decision-block__diagram">
+      <!-- ЗАМЕНИТЬ: hero на английском и русском рядом -->
+      <img src="../images/kernle/hero-en-ru.jpg" alt="Kernle hero in English and Russian" class="js-lightbox" />
+      <figcaption class="d7">EN / RU</figcaption>
+    </figure>
+  </div>
+</section>
+
+        <!-- PROCESS -->
+        <section class="section container section-border-top reveal">
+            <h2 class="h2 project-section__title">Process</h2>
+            <p class="b5 project-text">The project went from moodboard to a live prototype in a fully AI-assisted workflow. Three phases, each with its own focus.</p>
+
+            <!-- ЗАМЕНИТЬ: схема процесса из трёх фаз -->
+            <img src="../images/kernle/process-diagram.jpg" alt="Process timeline: Phase 1 Direction, Phase 2 System, Phase 3 Build" style="margin-top: var(--sp-4); width: 100%;" class="js-lightbox" />
+
+            <!-- Moodboard & Direction -->
+            <div class="work-block reveal">
+                <div class="work-block__grid">
+                    <div>
+                        <div class="work-block__phase d6">Phase 1</div>
+                        <h3 class="work-block__title">Moodboard &amp; Direction</h3>
+                        <div class="tags-list">
+                            <span class="tag">Moodboard</span>
+                            <span class="tag">Visual concept</span>
+                            <span class="tag">Art direction</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="b5">I collected references with light rings, soft halos, particle waves, and iridescent gradients on black. From them came the core idea: a glowing “knowledge core” that stands for the bot’s understanding and appears across the product.</p>
+                        <!-- ЗАМЕНИТЬ: мудборд -->
+                        <img src="../images/kernle/moodboard.jpg" alt="Kernle moodboard" style="margin-top: 16px; width: 100%;" class="js-lightbox" />
+                        <p class="work-block__caption d7">Moodboard</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-divider"></div>
+
+            <!-- Audit & Prompt System -->
+            <div class="work-block reveal">
+                <div class="work-block__grid">
+                    <div>
+                        <div class="work-block__phase d6">Phase 2</div>
+                        <h3 class="work-block__title">Audit &amp; Prompt System</h3>
+                        <div class="tags-list">
+                            <span class="tag">Project audit</span>
+                            <span class="tag">Logic guards</span>
+                            <span class="tag">Prompt structure</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="b5">The app already worked, so the first step was not design but protection. An audit in chat mode mapped which files held styling and which held logic. From that map, I wrote a prompt template: a guard naming untouched files, one focused task, and translation rules for both languages.</p>
+                        <!-- ЗАМЕНИТЬ: результат аудита / шаблон промта -->
+                        <img src="../images/kernle/audit.jpg" alt="Audit result: visual and logic files" style="margin-top: 16px; width: 100%;" class="js-lightbox" />
+                        <p class="work-block__caption d7">Audit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-divider"></div>
+
+            <!-- Visual Build -->
+            <div class="work-block reveal">
+                <div class="work-block__grid">
+                    <div>
+                        <div class="work-block__phase d6">Phase 3</div>
+                        <h3 class="work-block__title">Visual Build</h3>
+                        <div class="tags-list">
+                            <span class="tag">Design tokens</span>
+                            <span class="tag">Landing page</span>
+                            <span class="tag">App restyle</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="b5">I rebuilt the product in a strict order: global design system first, then the header and hero, the how-it-works and features sections, and pricing. Each step was checked in the live app before moving on.</p>
+                        <!-- ЗАМЕНИТЬ: лендинг целиком (длинный скриншот) -->
+                        <img src="../images/kernle/landing.jpg" alt="Kernle landing page" style="margin-top: 16px; width: 100%;" class="js-lightbox" />
+                        <p class="work-block__caption d7">Landing page</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-divider"></div>
+
+            <!-- Training Loader -->
+            <div class="work-block reveal">
+                <div class="work-block__grid">
+                    <div>
+                        <div class="work-block__phase d6">Phase 3</div>
+                        <h3 class="work-block__title">Training Loader</h3>
+                        <div class="tags-list">
+                            <span class="tag">Motion</span>
+                            <span class="tag">Stages</span>
+                            <span class="tag">Iteration</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="b5">The loader went through two versions: solid light ribbons, then a soft halo that matches the landing page. It uses the real names of uploaded sources and replaces the old timer without changing how onboarding works.</p>
+                        <!-- ЗАМЕНИТЬ: этапы лоадера (раскадровка) — или видео, как в блоке выше -->
+                        <img src="../images/kernle/loader-stages.jpg" alt="Training loader stages" style="margin-top: 16px; width: 100%;" class="js-lightbox" />
+                        <p class="work-block__caption d7">Training loader</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+  <!-- DESIGN SYSTEM -->
+   <section class="section container section-border-top reveal">
+     <h2 class="h2 project-section__title">Design System</h2>
+         <div>
+           <p class="b5 project-text">Set up as global tokens before any section was touched — colour, type, glass surfaces, glows, and button states. Old class names were kept as aliases, so the dashboard and editor took on the new look without anything breaking.</p>
+               <div class="work-block__gallery work-block__gallery--grid2" style="margin-top: 16px;">
+                    <!-- ЗАМЕНИТЬ: 4 карточки дизайн-системы -->
+                    <figure>
+                        <img src="../images/kernle/ds-colors.jpg" alt="Kernle colour tokens" class="js-lightbox" />
+                        <figcaption class="d7 text-secondary">Colour tokens</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../images/kernle/ds-typography.jpg" alt="Kernle typography" class="js-lightbox" />
+                        <figcaption class="d7 text-secondary">Typography</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../images/kernle/ds-surfaces.jpg" alt="Glass surfaces and glows" class="js-lightbox" />
+                        <figcaption class="d7 text-secondary">Surfaces &amp; glows</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../images/kernle/ds-buttons.jpg" alt="Kernle buttons with states" class="js-lightbox" />
+                        <figcaption class="d7 text-secondary">Buttons</figcaption>
+                    </figure>
+                </div>
+         </div>
+     </section>
+
+  <!-- WHERE THE PROJECT LANDED -->
+        <section class="section container section-border-top reveal">
+            <h2 class="h2 project-section__title">Where the project landed</h2>
+            <p class="b5 project-text">Kernle is a live concept prototype deployed on Vercel. Data is stored in the browser and bot training is simulated, so it is not a production product — it shows the full experience and the visual direction end to end. Fittingly, the footer says it was trained on documents, not vibes; the interface itself was built on vibes.</p>
+            <a href="https://kernle-chat-builder.vercel.app/" class="btn btn-outline" target="_blank" rel="noopener" style="margin-top: var(--sp-4);">Live prototype</a>
+        </section>
+
+     <!-- IMPACT -->
+<section class="section container section-border-top reveal">
+  <h2 class="h2 project-section__title">Impact</h2>
+  <p class="b5 project-text">I took Kernle from a set of references to a working, bilingual prototype — and tested how far a designer can lead a build with AI while keeping design quality and product stability under control.</p>
+  <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
+    <li>
+      <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+      <span><strong>Vibe coding with design ownership</strong><br>AI wrote the code, but every decision about composition, colour, motion, and when to stop was mine.</span>
+    </li>
+    <li>
+      <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+      <span><strong>A process that protects the product</strong><br>The audit and prompt guards turned a risky full redesign into small, reviewable steps.</span>
+    </li>
+    <li>
+      <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+      <span><strong>One visual idea across the whole product</strong><br>The knowledge core links the landing page, the demo chat, and the training loader into one experience.</span>
+    </li>
+    <li>
+      <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
+      <span><strong>Motion with a purpose</strong><br>The loader turns waiting into an explanation of what the product does with the user’s documents.</span>
+    </li>
+  </ul>
+</section>
+
+        <!-- CONTACT / FOOTER -->
+        <footer class="site-footer container reveal" id="contact">
+            <h2 class="h2">Let's work together</h2>
+            <p class="site-footer__subtitle b5">Open to new projects and full-time positions</p>
+            <div class="site-footer__links">
+                <a href="mailto:sta.ana.igo@gmail.com" class="btn btn-primary" target="_blank" rel="noopener">email</a>
+                <a href="https://t.me/anastasiya_statkevich" class="btn btn-outline" target="_blank" rel="noopener">telegram</a>
+                <a href="https://dribbble.com/anastasia_statkevich" class="btn btn-outline" target="_blank" rel="noopener">dribbble</a>
+            </div>
+        </footer>
+    </main>
+    <script src="../js/i18n-ru.js"></script>
+    <script src="../js/i18n.js"></script>
+    <script src="../js/cursor.js"></script>
+    <script src="../js/reveal.js"></script>
+    <script src="../js/main.js"></script>
+
+    <div class="lightbox-overlay" id="lightbox">
+        <div class="lightbox-content">
+            <div class="lightbox-header">
+                <p class="lightbox-caption b4" id="lightbox-caption"></p>
+                <button class="lightbox-close" id="lightbox-close" aria-label="Close">
+                    <img src="../images/close-icon.svg" alt="" />
+                </button>
+            </div>
+            <img src="" alt="" id="lightbox-img" />
+        </div>
+    </div>
+</body>
+</html>
