@@ -704,8 +704,6 @@ window.I18N_RU = {
     "Продуктовый дизайнер, разработка с ИИ",
   "Art direction, UI, Design System, Motion, Prompting, Prototyping":
     "Арт-дирекция, UI, дизайн-система, моушн, промтинг, прототипирование",
-  "How might we turn the wait while a bot learns from documents into a moment that explains what is happening — and give the whole product a distinctive visual identity — without writing code by hand and without breaking the app’s logic?":
-    "Как превратить ожидание, пока бот учится на документах, в момент, который объясняет происходящее, и дать всему продукту узнаваемый визуальный характер — без ручного написания кода и не сломав логику приложения?",
   "Sole Designer | Vibe coding with Lovable | End-to-end ownership":
     "Единственный дизайнер | Вайб-кодинг в Lovable | Полная ответственность за результат",
   "<strong>Full design cycle</strong> from moodboard to a deployed prototype, without hand-writing code":
@@ -728,48 +726,6 @@ window.I18N_RU = {
     "Живой прототип",
   "The target audience is small business owners, support and marketing teams, and non-technical founders who already have documentation or a help center. They want a support chatbot without involving developers. Speed, a bot that looks like their brand, and zero code are what they care about.":
     "Целевая аудитория — владельцы малого бизнеса, команды поддержки и маркетинга, нетехнические основатели, у которых уже есть документация или справочный центр. Они хотят бота поддержки без участия разработчиков. Для них важны скорость, бот в стиле их бренда и отсутствие кода.",
-  "Turning a 4-second timer into an explanation":
-    "Превратить 4-секундный таймер в объяснение",
-  "The original training screen was a 4.2-second timer with playful messages that had nothing to do with the user’s content. It filled the wait, but it did not show what was happening to the documents the user had just uploaded.":
-    "Изначально экран обучения был таймером на 4,2 секунды с шуточными фразами, не связанными с контентом пользователя. Он заполнял паузу, но не показывал, что происходит с только что загруженными документами.",
-  "Old loader":
-    "Старый лоадер",
-  "I designed a five-stage animation around a glowing “knowledge core”. The user’s real files and links, with their actual names, drift in and dissolve into the light. The glow shifts from cool blue to warm amber as the bot learns, and at the end the core unfolds into the bot’s first message. A Skip button and a reduced-motion version keep it respectful of the user’s time.":
-    "Я спроектировала пятиэтапную анимацию вокруг светящегося «ядра знаний». Реальные файлы и ссылки пользователя, с их настоящими названиями, влетают в свет и растворяются в нём. Свечение меняется от холодного синего к тёплому янтарному, пока бот учится, а в финале ядро разворачивается в первое сообщение бота. Кнопка «Пропустить» и версия для reduced motion уважают время пользователя.",
-  "<strong>The result:</strong> the wait now explains the product — users see their own documents becoming a bot, instead of a generic progress bar.":
-    "<strong>Результат:</strong> ожидание теперь объясняет продукт — пользователь видит, как его документы превращаются в бота, а не абстрактный прогресс-бар.",
-  "New loader":
-    "Новый лоадер",
-  "From solid lines to soft light":
-    "От чётких линий к мягкому свету",
-  "The first version of the loader was built from solid light ribbons. On its own it looked fine, but next to the soft, diffused halo on the landing page it felt like a different product.":
-    "Первая версия лоадера состояла из чётких световых лент. Сама по себе она выглядела хорошо, но рядом с мягким размытым ореолом на главной странице казалась частью другого продукта.",
-  "First iteration":
-    "Первая итерация",
-  "I rebuilt the core from layered, pre-blurred gradients with no hard edges, matching the hero halo. Progress stopped being a thin arc and became a brighter segment of light that slowly grows around the ring.":
-    "Я пересобрала ядро из слоёв мягких градиентов без жёстких границ, в том же стиле, что ореол в hero. Прогресс из тонкой дуги превратился в яркий сегмент света, который постепенно растёт по кругу.",
-  "<strong>The result:</strong> the loader reads as a direct continuation of the landing page, and one visual idea now runs through the whole flow.":
-    "<strong>Результат:</strong> лоадер выглядит прямым продолжением главной страницы, и одна визуальная идея проходит через весь сценарий.",
-  "Final version":
-    "Финальная версия",
-  "Redesigning without breaking the product":
-    "Редизайн, который не ломает продукт",
-  "AI tools tend to rewrite whole components when asked for a redesign. In a working app, that puts sign-up, onboarding, the bot editor, billing, and translations at risk with every prompt.":
-    "ИИ-инструменты при редизайне часто переписывают компоненты целиком. В работающем приложении каждый промт ставит под угрозу регистрацию, онбординг, редактор бота, оплату и переводы.",
-  "Before changing anything, I asked the AI to audit the project and split files into visual and logic layers. Every prompt then opened with a guard that named the files it must not touch, changed one section at a time, and ended with a review step listing every changed file.":
-    "Перед любыми изменениями я попросила ИИ проанализировать проект и разделить файлы на визуальный и логический слои. Каждый промт начинался с ограничения, перечисляющего файлы, которые нельзя трогать, менял одну секцию и заканчивался проверкой со списком всех изменённых файлов.",
-  "<strong>The result:</strong> a full visual overhaul of the app delivered in small, reviewable steps, with core flows left intact and every step easy to roll back.":
-    "<strong>Результат:</strong> полный визуальный редизайн приложения небольшими проверяемыми шагами, основные сценарии остались нетронутыми, а любой шаг легко откатить.",
-  "Keeping two languages in sync":
-    "Два языка без расхождений",
-  "The product works in English and Russian. New copy written straight into the code would break the Russian version, and gradient accents tied to English words would not carry over.":
-    "Продукт работает на английском и русском. Новые тексты, вписанные прямо в код, сломали бы русскую версию, а градиентные акценты на английских словах не перенеслись бы.",
-  "I made bilingual support a rule in every prompt: all text goes through the translation catalog, both languages are updated together, and visual accents like the gradient headline word are applied to the matching words in each language.":
-    "Двуязычность стала правилом в каждом промте: все тексты идут через каталог переводов, оба языка обновляются одновременно, а визуальные акценты вроде градиентного слова в заголовке применяются к соответствующим словам в каждом языке.",
-  "<strong>The result:</strong> both versions stay complete and visually equal, with no missing strings after the redesign.":
-    "<strong>Результат:</strong> обе версии полные и визуально равноценные, после редизайна не потерялось ни одной строки.",
-  "EN / RU":
-    "EN / RU",
   "The project went from moodboard to a live prototype in a fully AI-assisted workflow. Three phases, each with its own focus.":
     "Проект прошёл путь от мудборда до живого прототипа полностью в работе с ИИ. Три фазы, у каждой свой фокус.",
   "Moodboard &amp; Direction":
@@ -828,6 +784,63 @@ window.I18N_RU = {
     "<strong>Одна визуальная идея во всём продукте</strong><br>Ядро знаний связывает главную страницу, демо-чат и лоадер обучения в единый опыт.",
   "<strong>Motion with a purpose</strong><br>The loader turns waiting into an explanation of what the product does with the user’s documents.":
     "<strong>Моушн со смыслом</strong><br>Лоадер превращает ожидание в объяснение того, что продукт делает с документами пользователя.",
+  "How might we make turning company docs into a working, embeddable chatbot simple enough for a non-technical team to finish in one sitting — and valuable enough that they want to pay for it?":
+    "Как сделать так, чтобы превратить документы компании в работающего встраиваемого чат-бота было достаточно просто для нетехнической команды — за один подход, — и достаточно ценно, чтобы за это захотелось платить?",
+  "The project started as a test assignment: a landing page and a clickable web app, built with AI tools and treated as a real product ready to launch, not a demo.":
+    "Проект начался как тестовое задание: лендинг и кликабельное веб-приложение, собранные с помощью ИИ-инструментов, — как настоящий продукт, готовый к запуску, а не демо.",
+  "Getting to a working bot in three steps":
+    "Работающий бот за три шага",
+  "A chatbot builder starts with an empty page: users don’t know what to upload, how much is enough, or what the result will look like. Every setup step before the first answer is a reason to leave.":
+    "Конструктор чат-ботов начинается с пустой страницы: пользователь не знает, что загружать, сколько этого нужно и как будет выглядеть результат. Каждый шаг настройки до первого ответа — повод уйти.",
+  "Onboarding":
+    "Онбординг",
+  "Onboarding asks only for what the bot needs to exist: a name, a purpose, and sources — files, a website link, or pasted text. Everything else has a sensible default, so even a skipped name becomes “My first bot”. A short training screen shows the user’s own sources being read, then opens the new bot straight in the editor, ready to chat.":
+    "Онбординг спрашивает только то, без чего бот не может существовать: имя, назначение и источники — файлы, ссылку на сайт или вставленный текст. У всего остального есть разумные значения по умолчанию: даже пропущенное имя превращается в «My first bot». Короткий экран обучения показывает, как читаются источники пользователя, и сразу открывает нового бота в редакторе, готового к диалогу.",
+  "<strong>The result:</strong> from sign-up to the first answer in one sitting, with no empty screens and no settings to fill in upfront.":
+    "<strong>Результат:</strong> от регистрации до первого ответа за один подход — без пустых экранов и настроек, которые нужно заполнить заранее.",
+  "Training screen":
+    "Экран обучения",
+  "Testing, sources and settings in one place":
+    "Тестирование, источники и настройки в одном месте",
+  "Before putting a bot in front of customers, users need to check what it actually knows. If testing, uploading, and customizing lived on separate pages, every fix would mean jumping back and forth.":
+    "Прежде чем показывать бота клиентам, нужно проверить, что он действительно знает. Если бы тестирование, загрузка и настройка жили на разных страницах, каждое исправление превращалось бы в прыжки туда и обратно.",
+  "Each bot has one editor: a ChatGPT-like chat for testing sits next to the bot’s sources, behavior, and appearance settings. Users can add a document, retrain the bot, and ask again without leaving the page, while a save bar appears only when there are unsaved changes.":
+    "У каждого бота один редактор: чат в стиле ChatGPT для тестирования находится рядом с источниками, настройками поведения и внешнего вида. Можно добавить документ, переобучить бота и спросить снова, не уходя со страницы, а панель сохранения появляется только при несохранённых изменениях.",
+  "<strong>The result:</strong> a tight loop — ask, spot a gap, add a document, retrain, ask again — that makes the bot better in minutes.":
+    "<strong>Результат:</strong> короткий цикл — спросить, заметить пробел, добавить документ, переобучить, спросить снова — улучшает бота за минуты.",
+  "Bot editor":
+    "Редактор бота",
+  "Embedding without a developer":
+    "Встраивание без разработчика",
+  "A bot is only useful once it is on the customer’s website, and that step usually needs a developer. Users also need to trust that the widget will look like part of their brand, not a third-party add-on.":
+    "Бот полезен только тогда, когда он на сайте клиента, а для этого обычно нужен разработчик. Кроме того, пользователю важно быть уверенным, что виджет будет выглядеть частью его бренда, а не сторонней надстройкой.",
+  "In the widget builder, colours, avatar, position, and welcome message update a live preview as the user tweaks them. When it looks right, the embed is a single script tag to copy, with a note that it works on Webflow, WordPress, Shopify, and plain HTML.":
+    "В конструкторе виджета цвета, аватар, расположение и приветственное сообщение сразу обновляют живое превью. Когда всё выглядит как надо, для встраивания достаточно скопировать один тег script — с пометкой, что он работает на Webflow, WordPress, Shopify и обычном HTML.",
+  "<strong>The result:</strong> embedding becomes a copy-paste step that a non-technical user can finish alone.":
+    "<strong>Результат:</strong> встраивание превращается в «скопировать и вставить», с которым нетехнический пользователь справится сам.",
+  "Widget builder":
+    "Конструктор виджета",
+  "A paywall that follows the value":
+    "Пейвол, который следует за ценностью",
+  "Gating random features makes a free plan feel broken and a paid plan feel arbitrary. The limits had to follow how the value of a bot actually grows for a business.":
+    "Если закрывать функции наугад, бесплатный тариф кажется сломанным, а платный — случайным. Ограничения должны были повторять то, как на самом деле растёт ценность бота для бизнеса.",
+  "Plans are split by what scales with a business: the number of bots, messages per month, removing Kernle branding and, for teams, seats, roles, and API access. The free plan is a complete product with one bot, so users can launch before paying. The upgrade prompt appears at the moment of need — when a user reaches the bot limit — and leads to checkout without leaving the app.":
+    "Тарифы различаются тем, что растёт вместе с бизнесом: количеством ботов, сообщений в месяц, возможностью убрать брендинг Kernle, а для команд — местами, ролями и доступом к API. Бесплатный тариф — это полноценный продукт с одним ботом, поэтому запуститься можно до оплаты. Предложение перейти на тариф выше появляется в момент необходимости — когда пользователь достигает лимита ботов — и ведёт к оплате, не выходя из приложения.",
+  "<strong>The result:</strong> users pay once the product has already proven useful, and each plan answers a clear need: more bots, more traffic, or their own brand.":
+    "<strong>Результат:</strong> пользователь платит, когда продукт уже доказал свою пользу, а каждый тариф отвечает на понятную потребность: больше ботов, больше трафика или собственный бренд.",
+  "Pricing &amp; checkout":
+    "Тарифы и оплата",
+  // Kernle — новые подписи к картинкам и видео (alt)
+  "Kernle onboarding: name, purpose, sources":
+    "Онбординг Kernle: имя, назначение, источники",
+  "Training screen animation":
+    "Анимация экрана обучения",
+  "Kernle bot editor with a test chat":
+    "Редактор бота Kernle с тестовым чатом",
+  "Widget builder with a live preview and embed code":
+    "Конструктор виджета с живым превью и кодом встраивания",
+  "Kernle pricing plans and checkout":
+    "Тарифы Kernle и оплата",
   // Kernle на главной (index.html)
   "Kernle (AI chatbot builder)":
     "Kernle (конструктор ИИ-чат-ботов)",
@@ -842,18 +855,6 @@ window.I18N_RU = {
     "Обложка проекта Kernle",
   "Kernle — laptop mockup":
     "Kernle — мокап на ноутбуке",
-  "Old training loader with a progress bar":
-    "Старый лоадер обучения с прогресс-баром",
-  "New training loader animation":
-    "Анимация нового лоадера обучения",
-  "First loader version with solid light ribbons":
-    "Первая версия лоадера с чёткими световыми лентами",
-  "Final loader with a soft halo":
-    "Финальный лоадер с мягким ореолом",
-  "Prompt structure: guard, task, review":
-    "Структура промта: ограничения, задача, проверка",
-  "Kernle hero in English and Russian":
-    "Hero Kernle на английском и русском",
   "Process timeline: Phase 1 Direction, Phase 2 System, Phase 3 Build":
     "Таймлайн процесса: этап 1 — направление, этап 2 — система, этап 3 — сборка",
   "Kernle moodboard":
