@@ -66,7 +66,8 @@
         <!-- CHALLENGE -->
         <section class="section container reveal">
             <h2 class="h2 project-section__title">Challenge</h2>
-            <p class="b5 project-text">How might we turn the wait while a bot learns from documents into a moment that explains what is happening — and give the whole product a distinctive visual identity — without writing code by hand and without breaking the app’s logic?</p>
+            <p class="b5 project-text">How might we make turning company docs into a working, embeddable chatbot simple enough for a non-technical team to finish in one sitting — and valuable enough that they want to pay for it?</p>
+            <p class="b5 project-text">The project started as a test assignment: a landing page and a clickable web app, built with AI tools and treated as a real product ready to launch, not a demo.</p>
         </section>
 
       <!-- MY ROLE -->
@@ -118,103 +119,99 @@
 <section class="section container section-border-top reveal">
   <h2 class="h2 project-section__title">Selected UX Decisions</h2>
 
- <!-- Turning a 4-second timer into an explanation -->
+ <!-- Getting to a working bot in three steps -->
   <div class="decision-block">
-    <h3 class="h3 decision-block__title">Turning a 4-second timer into an explanation</h3>
+    <h3 class="h3 decision-block__title">Getting to a working bot in three steps</h3>
     <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
-    <p class="b5 decision-block__text">The original training screen was a 4.2-second timer with playful messages that had nothing to do with the user’s content. It filled the wait, but it did not show what was happening to the documents the user had just uploaded.</p>
+    <p class="b5 decision-block__text">A chatbot builder starts with an empty page: users don’t know what to upload, how much is enough, or what the result will look like. Every setup step before the first answer is a reason to leave.</p>
 
     <figure class="decision-block__diagram">
-      <!-- ЗАМЕНИТЬ: скриншот старого лоадера -->
-      <img src="../images/kernle/loader-old.jpg" alt="Old training loader with a progress bar" class="js-lightbox" />
-      <figcaption class="d7">Old loader</figcaption>
+      <!-- ЗАМЕНИТЬ: экраны онбординга (имя, назначение, источники) -->
+      <img src="../images/kernle/onboarding.jpg" alt="Kernle onboarding: name, purpose, sources" class="js-lightbox" />
+      <figcaption class="d7">Onboarding</figcaption>
     </figure>
 
     <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
-    <p class="b5 decision-block__text">I designed a five-stage animation around a glowing “knowledge core”. The user’s real files and links, with their actual names, drift in and dissolve into the light. The glow shifts from cool blue to warm amber as the bot learns, and at the end the core unfolds into the bot’s first message. A Skip button and a reduced-motion version keep it respectful of the user’s time.</p>
+    <p class="b5 decision-block__text">Onboarding asks only for what the bot needs to exist: a name, a purpose, and sources — files, a website link, or pasted text. Everything else has a sensible default, so even a skipped name becomes “My first bot”. A short training screen shows the user’s own sources being read, then opens the new bot straight in the editor, ready to chat.</p>
     <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
       <li>
         <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
-        <span><strong>The result:</strong> the wait now explains the product — users see their own documents becoming a bot, instead of a generic progress bar.</span>
+        <span><strong>The result:</strong> from sign-up to the first answer in one sitting, with no empty screens and no settings to fill in upfront.</span>
       </li>
     </ul>
 
     <figure class="decision-block__diagram">
-      <!-- ЗАМЕНИТЬ: видео нового лоадера (MP4) и кадр-постер (JPG) -->
-      <video src="../images/kernle/loader.mp4" poster="../images/kernle/loader-poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="New training loader animation" style="width: 100%; display: block;"></video>
-      <figcaption class="d7">New loader</figcaption>
+      <!-- ЗАМЕНИТЬ: видео лоадера обучения (MP4) и кадр-постер (JPG) -->
+      <video src="../images/kernle/loader.mp4" poster="../images/kernle/loader-poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Training screen animation" style="width: 100%; display: block;"></video>
+      <figcaption class="d7">Training screen</figcaption>
     </figure>
   </div>
 
- <!-- From solid lines to soft light -->
+ <!-- Testing, sources and settings in one place -->
   <div class="decision-block">
-    <h3 class="h3 decision-block__title">From solid lines to soft light</h3>
+    <h3 class="h3 decision-block__title">Testing, sources and settings in one place</h3>
     <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
-    <p class="b5 decision-block__text">The first version of the loader was built from solid light ribbons. On its own it looked fine, but next to the soft, diffused halo on the landing page it felt like a different product.</p>
-
-    <figure class="decision-block__diagram">
-      <!-- ЗАМЕНИТЬ: первая версия лоадера с лентами (можно тоже видео) -->
-      <img src="../images/kernle/loader-ribbons.jpg" alt="First loader version with solid light ribbons" class="js-lightbox" />
-      <figcaption class="d7">First iteration</figcaption>
-    </figure>
+    <p class="b5 decision-block__text">Before putting a bot in front of customers, users need to check what it actually knows. If testing, uploading, and customizing lived on separate pages, every fix would mean jumping back and forth.</p>
 
     <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
-    <p class="b5 decision-block__text">I rebuilt the core from layered, pre-blurred gradients with no hard edges, matching the hero halo. Progress stopped being a thin arc and became a brighter segment of light that slowly grows around the ring.</p>
+    <!-- ПРОВЕРИТЬ: описание редактора — поправьте под реальные вкладки -->
+    <p class="b5 decision-block__text">Each bot has one editor: a ChatGPT-like chat for testing sits next to the bot’s sources, behavior, and appearance settings. Users can add a document, retrain the bot, and ask again without leaving the page, while a save bar appears only when there are unsaved changes.</p>
     <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
       <li>
         <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
-        <span><strong>The result:</strong> the loader reads as a direct continuation of the landing page, and one visual idea now runs through the whole flow.</span>
+        <span><strong>The result:</strong> a tight loop — ask, spot a gap, add a document, retrain, ask again — that makes the bot better in minutes.</span>
       </li>
     </ul>
 
     <figure class="decision-block__diagram">
-      <!-- ЗАМЕНИТЬ: финальный лоадер с мягким ореолом -->
-      <img src="../images/kernle/loader-final.jpg" alt="Final loader with a soft halo" class="js-lightbox" />
-      <figcaption class="d7">Final version</figcaption>
+      <!-- ЗАМЕНИТЬ: редактор бота с тестовым чатом -->
+      <img src="../images/kernle/editor.jpg" alt="Kernle bot editor with a test chat" class="js-lightbox" />
+      <figcaption class="d7">Bot editor</figcaption>
     </figure>
   </div>
 
- <!-- Redesigning without breaking the product -->
+ <!-- Embedding without a developer -->
   <div class="decision-block">
-    <h3 class="h3 decision-block__title">Redesigning without breaking the product</h3>
+    <h3 class="h3 decision-block__title">Embedding without a developer</h3>
     <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
-    <p class="b5 decision-block__text">AI tools tend to rewrite whole components when asked for a redesign. In a working app, that puts sign-up, onboarding, the bot editor, billing, and translations at risk with every prompt.</p>
+    <p class="b5 decision-block__text">A bot is only useful once it is on the customer’s website, and that step usually needs a developer. Users also need to trust that the widget will look like part of their brand, not a third-party add-on.</p>
 
     <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
-    <p class="b5 decision-block__text">Before changing anything, I asked the AI to audit the project and split files into visual and logic layers. Every prompt then opened with a guard that named the files it must not touch, changed one section at a time, and ended with a review step listing every changed file.</p>
+    <p class="b5 decision-block__text">In the widget builder, colours, avatar, position, and welcome message update a live preview as the user tweaks them. When it looks right, the embed is a single script tag to copy, with a note that it works on Webflow, WordPress, Shopify, and plain HTML.</p>
     <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
       <li>
         <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
-        <span><strong>The result:</strong> a full visual overhaul of the app delivered in small, reviewable steps, with core flows left intact and every step easy to roll back.</span>
+        <span><strong>The result:</strong> embedding becomes a copy-paste step that a non-technical user can finish alone.</span>
       </li>
     </ul>
 
     <figure class="decision-block__diagram">
-      <!-- ЗАМЕНИТЬ: схема структуры промта -->
-      <img src="../images/kernle/prompt-system.jpg" alt="Prompt structure: guard, task, review" class="js-lightbox" />
-      <figcaption class="d7">Prompt system</figcaption>
+      <!-- ЗАМЕНИТЬ: конструктор виджета с превью и кодом встраивания -->
+      <img src="../images/kernle/widget-builder.jpg" alt="Widget builder with a live preview and embed code" class="js-lightbox" />
+      <figcaption class="d7">Widget builder</figcaption>
     </figure>
   </div>
 
- <!-- Keeping two languages in sync -->
+ <!-- A paywall that follows the value -->
   <div class="decision-block">
-    <h3 class="h3 decision-block__title">Keeping two languages in sync</h3>
+    <h3 class="h3 decision-block__title">A paywall that follows the value</h3>
     <p class="b4" style="margin-top: var(--sp-3);">Problem</p>
-    <p class="b5 decision-block__text">The product works in English and Russian. New copy written straight into the code would break the Russian version, and gradient accents tied to English words would not carry over.</p>
+    <p class="b5 decision-block__text">Gating random features makes a free plan feel broken and a paid plan feel arbitrary. The limits had to follow how the value of a bot actually grows for a business.</p>
 
     <p class="b4" style="margin-top: var(--sp-3);">Design decision</p>
-    <p class="b5 decision-block__text">I made bilingual support a rule in every prompt: all text goes through the translation catalog, both languages are updated together, and visual accents like the gradient headline word are applied to the matching words in each language.</p>
+    <!-- ПРОВЕРИТЬ: окно оплаты появляется при достижении лимита ботов -->
+    <p class="b5 decision-block__text">Plans are split by what scales with a business: the number of bots, messages per month, removing Kernle branding and, for teams, seats, roles, and API access. The free plan is a complete product with one bot, so users can launch before paying. The upgrade prompt appears at the moment of need — when a user reaches the bot limit — and leads to checkout without leaving the app.</p>
     <ul class="role-checklist impact-checklist b5" style="margin-top: var(--sp-4);">
       <li>
         <img src="../images/check-icon.svg" alt="" class="role-checklist__icon" />
-        <span><strong>The result:</strong> both versions stay complete and visually equal, with no missing strings after the redesign.</span>
+        <span><strong>The result:</strong> users pay once the product has already proven useful, and each plan answers a clear need: more bots, more traffic, or their own brand.</span>
       </li>
     </ul>
 
     <figure class="decision-block__diagram">
-      <!-- ЗАМЕНИТЬ: hero на английском и русском рядом -->
-      <img src="../images/kernle/hero-en-ru.jpg" alt="Kernle hero in English and Russian" class="js-lightbox" />
-      <figcaption class="d7">EN / RU</figcaption>
+      <!-- ЗАМЕНИТЬ: тарифы и окно оплаты -->
+      <img src="../images/kernle/paywall.jpg" alt="Kernle pricing plans and checkout" class="js-lightbox" />
+      <figcaption class="d7">Pricing &amp; checkout</figcaption>
     </figure>
   </div>
 </section>
