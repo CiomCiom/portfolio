@@ -693,6 +693,186 @@ window.I18N_RU = {
   "Prepared the final designs, prototype, and component library for developer handoff":
     "Подготовила финальные макеты, прототип и библиотеку компонентов к передаче в разработку",
 
+  // ---------- Kernle (projects/kernle.html) ----------
+  "Kernle — Statkevich Anastasiya":
+    "Kernle — Анастасия Статкевич",
+  "Directing AI to design and build a chatbot builder — from moodboard to live prototype.":
+    "Как я руководила ИИ, чтобы спроектировать и собрать конструктор чат-ботов — от мудборда до работающего прототипа.",
+  "As the sole designer, I created Kernle through vibe coding: I described the product in prompts, and AI wrote the code. My job was everything the code could not decide on its own — art direction, the design system, motion, and the rules that kept a fast AI workflow from breaking a working product.":
+    "Как единственный дизайнер, я создала Kernle методом вайб-кодинга: описывала продукт в промтах, а код писал ИИ. Моя задача — всё, что код не может решить сам: арт-дирекция, дизайн-система, моушн и правила, которые не давали быстрой работе с ИИ сломать работающий продукт.",
+  "Product Designer, AI-assisted build":
+    "Продуктовый дизайнер, разработка с ИИ",
+  "Art direction, UI, Design System, Motion, Prompting, Prototyping":
+    "Арт-дирекция, UI, дизайн-система, моушн, промтинг, прототипирование",
+  "How might we turn the wait while a bot learns from documents into a moment that explains what is happening — and give the whole product a distinctive visual identity — without writing code by hand and without breaking the app’s logic?":
+    "Как превратить ожидание, пока бот учится на документах, в момент, который объясняет происходящее, и дать всему продукту узнаваемый визуальный характер — без ручного написания кода и не сломав логику приложения?",
+  "Sole Designer | Vibe coding with Lovable | End-to-end ownership":
+    "Единственный дизайнер | Вайб-кодинг в Lovable | Полная ответственность за результат",
+  "<strong>Full design cycle</strong> from moodboard to a deployed prototype, without hand-writing code":
+    "<strong>Полный цикл дизайна</strong> — от мудборда до опубликованного прототипа, без ручного написания кода",
+  "A <strong>structured prompt system</strong> with logic guards, so the redesign never touched auth, onboarding, billing, or data":
+    "<strong>Система промтов</strong> с защитой логики: редизайн не затронул регистрацию, онбординг, оплату и данные",
+  "Design system set up as global tokens first, so every page changed <strong>without losing consistency</strong>":
+    "Дизайн-система заложена глобальными токенами в первую очередь, поэтому все страницы обновились <strong>без потери целостности</strong>",
+  "Kept the product <strong>fully bilingual (EN / RU)</strong> by routing all copy through the translation system":
+    "Продукт остался <strong>полностью двуязычным (EN / RU)</strong>: все тексты проходят через систему переводов",
+  "Landing page":
+    "Лендинг",
+  "Training loader":
+    "Лоадер обучения",
+  "Web app restyle":
+    "Рестайл приложения",
+  "Prompt system":
+    "Система промтов",
+  "Live prototype":
+    "Живой прототип",
+  "The target audience is small business owners, support and marketing teams, and non-technical founders who already have documentation or a help center. They want a support chatbot without involving developers. Speed, a bot that looks like their brand, and zero code are what they care about.":
+    "Целевая аудитория — владельцы малого бизнеса, команды поддержки и маркетинга, нетехнические основатели, у которых уже есть документация или справочный центр. Они хотят бота поддержки без участия разработчиков. Для них важны скорость, бот в стиле их бренда и отсутствие кода.",
+  "Turning a 4-second timer into an explanation":
+    "Превратить 4-секундный таймер в объяснение",
+  "The original training screen was a 4.2-second timer with playful messages that had nothing to do with the user’s content. It filled the wait, but it did not show what was happening to the documents the user had just uploaded.":
+    "Изначально экран обучения был таймером на 4,2 секунды с шуточными фразами, не связанными с контентом пользователя. Он заполнял паузу, но не показывал, что происходит с только что загруженными документами.",
+  "Old loader":
+    "Старый лоадер",
+  "I designed a five-stage animation around a glowing “knowledge core”. The user’s real files and links, with their actual names, drift in and dissolve into the light. The glow shifts from cool blue to warm amber as the bot learns, and at the end the core unfolds into the bot’s first message. A Skip button and a reduced-motion version keep it respectful of the user’s time.":
+    "Я спроектировала пятиэтапную анимацию вокруг светящегося «ядра знаний». Реальные файлы и ссылки пользователя, с их настоящими названиями, влетают в свет и растворяются в нём. Свечение меняется от холодного синего к тёплому янтарному, пока бот учится, а в финале ядро разворачивается в первое сообщение бота. Кнопка «Пропустить» и версия для reduced motion уважают время пользователя.",
+  "<strong>The result:</strong> the wait now explains the product — users see their own documents becoming a bot, instead of a generic progress bar.":
+    "<strong>Результат:</strong> ожидание теперь объясняет продукт — пользователь видит, как его документы превращаются в бота, а не абстрактный прогресс-бар.",
+  "New loader":
+    "Новый лоадер",
+  "From solid lines to soft light":
+    "От чётких линий к мягкому свету",
+  "The first version of the loader was built from solid light ribbons. On its own it looked fine, but next to the soft, diffused halo on the landing page it felt like a different product.":
+    "Первая версия лоадера состояла из чётких световых лент. Сама по себе она выглядела хорошо, но рядом с мягким размытым ореолом на главной странице казалась частью другого продукта.",
+  "First iteration":
+    "Первая итерация",
+  "I rebuilt the core from layered, pre-blurred gradients with no hard edges, matching the hero halo. Progress stopped being a thin arc and became a brighter segment of light that slowly grows around the ring.":
+    "Я пересобрала ядро из слоёв мягких градиентов без жёстких границ, в том же стиле, что ореол в hero. Прогресс из тонкой дуги превратился в яркий сегмент света, который постепенно растёт по кругу.",
+  "<strong>The result:</strong> the loader reads as a direct continuation of the landing page, and one visual idea now runs through the whole flow.":
+    "<strong>Результат:</strong> лоадер выглядит прямым продолжением главной страницы, и одна визуальная идея проходит через весь сценарий.",
+  "Final version":
+    "Финальная версия",
+  "Redesigning without breaking the product":
+    "Редизайн, который не ломает продукт",
+  "AI tools tend to rewrite whole components when asked for a redesign. In a working app, that puts sign-up, onboarding, the bot editor, billing, and translations at risk with every prompt.":
+    "ИИ-инструменты при редизайне часто переписывают компоненты целиком. В работающем приложении каждый промт ставит под угрозу регистрацию, онбординг, редактор бота, оплату и переводы.",
+  "Before changing anything, I asked the AI to audit the project and split files into visual and logic layers. Every prompt then opened with a guard that named the files it must not touch, changed one section at a time, and ended with a review step listing every changed file.":
+    "Перед любыми изменениями я попросила ИИ проанализировать проект и разделить файлы на визуальный и логический слои. Каждый промт начинался с ограничения, перечисляющего файлы, которые нельзя трогать, менял одну секцию и заканчивался проверкой со списком всех изменённых файлов.",
+  "<strong>The result:</strong> a full visual overhaul of the app delivered in small, reviewable steps, with core flows left intact and every step easy to roll back.":
+    "<strong>Результат:</strong> полный визуальный редизайн приложения небольшими проверяемыми шагами, основные сценарии остались нетронутыми, а любой шаг легко откатить.",
+  "Keeping two languages in sync":
+    "Два языка без расхождений",
+  "The product works in English and Russian. New copy written straight into the code would break the Russian version, and gradient accents tied to English words would not carry over.":
+    "Продукт работает на английском и русском. Новые тексты, вписанные прямо в код, сломали бы русскую версию, а градиентные акценты на английских словах не перенеслись бы.",
+  "I made bilingual support a rule in every prompt: all text goes through the translation catalog, both languages are updated together, and visual accents like the gradient headline word are applied to the matching words in each language.":
+    "Двуязычность стала правилом в каждом промте: все тексты идут через каталог переводов, оба языка обновляются одновременно, а визуальные акценты вроде градиентного слова в заголовке применяются к соответствующим словам в каждом языке.",
+  "<strong>The result:</strong> both versions stay complete and visually equal, with no missing strings after the redesign.":
+    "<strong>Результат:</strong> обе версии полные и визуально равноценные, после редизайна не потерялось ни одной строки.",
+  "EN / RU":
+    "EN / RU",
+  "The project went from moodboard to a live prototype in a fully AI-assisted workflow. Three phases, each with its own focus.":
+    "Проект прошёл путь от мудборда до живого прототипа полностью в работе с ИИ. Три фазы, у каждой свой фокус.",
+  "Moodboard &amp; Direction":
+    "Мудборд и направление",
+  "Moodboard":
+    "Мудборд",
+  "Visual concept":
+    "Визуальная концепция",
+  "Art direction":
+    "Арт-дирекция",
+  "I collected references with light rings, soft halos, particle waves, and iridescent gradients on black. From them came the core idea: a glowing “knowledge core” that stands for the bot’s understanding and appears across the product.":
+    "Я собрала референсы: световые кольца, мягкие ореолы, волны частиц и переливающиеся градиенты на чёрном. Из них выросла главная идея — светящееся «ядро знаний», которое символизирует понимание бота и проходит через весь продукт.",
+  "Audit &amp; Prompt System":
+    "Аудит и система промтов",
+  "Project audit":
+    "Аудит проекта",
+  "Logic guards":
+    "Защита логики",
+  "Prompt structure":
+    "Структура промтов",
+  "The app already worked, so the first step was not design but protection. An audit in chat mode mapped which files held styling and which held logic. From that map, I wrote a prompt template: a guard naming untouched files, one focused task, and translation rules for both languages.":
+    "Приложение уже работало, поэтому первым шагом стал не дизайн, а защита. Аудит в режиме чата показал, в каких файлах стили, а в каких логика. На основе этой карты я написала шаблон промта: ограничения с перечнем нетронутых файлов, одна конкретная задача и правила переводов для обоих языков.",
+  "Audit":
+    "Аудит",
+  "Visual Build":
+    "Визуальная сборка",
+  "Design tokens":
+    "Дизайн-токены",
+  "App restyle":
+    "Рестайл приложения",
+  "I rebuilt the product in a strict order: global design system first, then the header and hero, the how-it-works and features sections, and pricing. Each step was checked in the live app before moving on.":
+    "Я пересобирала продукт в строгом порядке: сначала глобальная дизайн-система, затем шапка и hero, секции «Как это работает» и «Возможности», цены. Каждый шаг проверялся в живом приложении, прежде чем переходить к следующему.",
+  "Training Loader":
+    "Лоадер обучения",
+  "Motion":
+    "Моушн",
+  "Stages":
+    "Этапы",
+  "Iteration":
+    "Итерации",
+  "The loader went through two versions: solid light ribbons, then a soft halo that matches the landing page. It uses the real names of uploaded sources and replaces the old timer without changing how onboarding works.":
+    "Лоадер прошёл две версии: чёткие световые ленты, затем мягкий ореол в стиле главной страницы. Он использует реальные названия загруженных источников и заменяет старый таймер, не меняя работу онбординга.",
+  "Set up as global tokens before any section was touched — colour, type, glass surfaces, glows, and button states. Old class names were kept as aliases, so the dashboard and editor took on the new look without anything breaking.":
+    "Заложена глобальными токенами до работы над секциями: цвет, типографика, стеклянные поверхности, свечения и состояния кнопок. Старые названия классов сохранены как алиасы, поэтому дашборд и редактор получили новый вид без поломок.",
+  "Surfaces &amp; glows":
+    "Поверхности и свечения",
+  "Kernle is a live concept prototype deployed on Vercel. Data is stored in the browser and bot training is simulated, so it is not a production product — it shows the full experience and the visual direction end to end. Fittingly, the footer says it was trained on documents, not vibes; the interface itself was built on vibes.":
+    "Kernle — живой концепт-прототип, опубликованный на Vercel. Данные хранятся в браузере, а обучение бота имитируется, поэтому это не продакшн-продукт: прототип показывает весь опыт и визуальное направление целиком. Символично, что в футере написано «обучен на документах, а не на вайбах», — а сам интерфейс собран именно на вайбах.",
+  "I took Kernle from a set of references to a working, bilingual prototype — and tested how far a designer can lead a build with AI while keeping design quality and product stability under control.":
+    "Я провела Kernle от набора референсов до работающего двуязычного прототипа — и проверила, насколько далеко дизайнер может вести разработку с ИИ, сохраняя контроль над качеством дизайна и стабильностью продукта.",
+  "<strong>Vibe coding with design ownership</strong><br>AI wrote the code, but every decision about composition, colour, motion, and when to stop was mine.":
+    "<strong>Вайб-кодинг с дизайнерской ответственностью</strong><br>Код писал ИИ, но все решения о композиции, цвете, моушне и о том, когда остановиться, принимала я.",
+  "<strong>A process that protects the product</strong><br>The audit and prompt guards turned a risky full redesign into small, reviewable steps.":
+    "<strong>Процесс, который защищает продукт</strong><br>Аудит и ограничения в промтах превратили рискованный полный редизайн в небольшие проверяемые шаги.",
+  "<strong>One visual idea across the whole product</strong><br>The knowledge core links the landing page, the demo chat, and the training loader into one experience.":
+    "<strong>Одна визуальная идея во всём продукте</strong><br>Ядро знаний связывает главную страницу, демо-чат и лоадер обучения в единый опыт.",
+  "<strong>Motion with a purpose</strong><br>The loader turns waiting into an explanation of what the product does with the user’s documents.":
+    "<strong>Моушн со смыслом</strong><br>Лоадер превращает ожидание в объяснение того, что продукт делает с документами пользователя.",
+  // Kernle на главной (index.html)
+  "Kernle (AI chatbot builder)":
+    "Kernle (конструктор ИИ-чат-ботов)",
+  "Vibe coding":
+    "Вайб-кодинг",
+  "A concept SaaS that turns documents into a support chatbot. I designed and built it through vibe coding: I led the art direction, design system, and motion, and AI wrote the code. A glowing “knowledge core” runs through the whole product — from the landing page to the animation of the bot learning from the user’s documents.":
+    "Концепт SaaS-сервиса, который превращает документы в чат-бота поддержки. Я спроектировала и собрала его методом вайб-кодинга: отвечала за арт-дирекцию, дизайн-систему и моушн, а код писал ИИ. Светящееся «ядро знаний» проходит через весь продукт — от главной страницы до анимации, в которой бот учится на документах пользователя.",
+  "Kernle <span class=\"text-secondary\">(AI chatbot builder)</span> <span class=\"divider\">|</span> <a href=\"https://kernle-chat-builder.vercel.app/\" target=\"_blank\" rel=\"noopener\">website</a>":
+    "Kernle <span class=\"text-secondary\">(конструктор ИИ-чат-ботов)</span> <span class=\"divider\">|</span> <a href=\"https://kernle-chat-builder.vercel.app/\" target=\"_blank\" rel=\"noopener\">сайт</a>",
+  // Kernle — подписи к картинкам и видео (alt)
+  "Kernle project cover":
+    "Обложка проекта Kernle",
+  "Kernle — laptop mockup":
+    "Kernle — мокап на ноутбуке",
+  "Old training loader with a progress bar":
+    "Старый лоадер обучения с прогресс-баром",
+  "New training loader animation":
+    "Анимация нового лоадера обучения",
+  "First loader version with solid light ribbons":
+    "Первая версия лоадера с чёткими световыми лентами",
+  "Final loader with a soft halo":
+    "Финальный лоадер с мягким ореолом",
+  "Prompt structure: guard, task, review":
+    "Структура промта: ограничения, задача, проверка",
+  "Kernle hero in English and Russian":
+    "Hero Kernle на английском и русском",
+  "Process timeline: Phase 1 Direction, Phase 2 System, Phase 3 Build":
+    "Таймлайн процесса: этап 1 — направление, этап 2 — система, этап 3 — сборка",
+  "Kernle moodboard":
+    "Мудборд Kernle",
+  "Audit result: visual and logic files":
+    "Результат аудита: визуальные и логические файлы",
+  "Kernle landing page":
+    "Лендинг Kernle",
+  "Training loader stages":
+    "Этапы лоадера обучения",
+  "Kernle colour tokens":
+    "Цветовые токены Kernle",
+  "Kernle typography":
+    "Типографика Kernle",
+  "Glass surfaces and glows":
+    "Стеклянные поверхности и свечения",
+  "Kernle buttons with states":
+    "Кнопки Kernle с состояниями",
+
   // ---------- Подписи к картинкам (alt) и кнопкам ----------
   "Portrait of Statkevich Anastasiya":
     "Портрет Анастасии Статкевич",
