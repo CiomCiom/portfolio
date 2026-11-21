@@ -44,9 +44,9 @@ window.I18N_RU = {
   "Tools":
     "Инструменты",
   "AI":
-    "ИИ",
+    "AI",
   "AI-assisted Design | Figma AI":
-    "Дизайн с помощью ИИ | Figma AI",
+    "AI-инструменты для дизайна | Figma AI",
   "How I work":
     "Как я работаю",
   "Step 1":
@@ -695,17 +695,17 @@ window.I18N_RU = {
 
   // ---------- Kernle (projects/kernle.html) ----------
   "Directing AI to design and build a chatbot builder — from brief to live prototype.":
-    "Как я руководила ИИ, чтобы спроектировать и собрать конструктор чат-ботов — от брифа до работающего прототипа.",
+    "Работа с вайб-кодингом без использования Figma (только AI) — от брифа до работающего прототипа.",
   "As the sole designer, I created Kernle through vibe coding: I described the product in prompts, and AI wrote the code. My job was everything the code could not decide on its own — the product flow, art direction, copy, motion, and the rules that kept a fast AI workflow from breaking a working product.":
-    "Как единственный дизайнер, я создала Kernle методом вайб-кодинга: описывала продукт в промтах, а код писал ИИ. Моя задача — всё, что код не может решить сам: пользовательский сценарий, арт-дирекция, тексты, моушн и правила, которые не давали быстрой работе с ИИ сломать работающий продукт.",
+    "Я создала Kernle только использоваа вайб-кодинг: описывала продукт в промтах, а код писал AI. Моя задача — всё, что код не может решить сам: пользовательский сценарий, арт-дирекция, тексты, моушн и логика самого продукта. По сути, я задала задачу и потом проверяла то, как AI справился",
   "Product Designer, AI-assisted build":
-    "Продуктовый дизайнер, разработка с ИИ",
+    "Продуктовый дизайнер, разработка с AI",
   "UX, UI, Branding, Copywriting, Motion, AI-assisted build":
-    "UX, UI, брендинг, копирайтинг, моушн, сборка с ИИ",
+    "UX, UI, брендинг, копирайтинг, моушн, сборка с AI",
   "Scrolling through the Kernle landing page":
     "Скролл лендинга Kernle",
   "How might we make turning company docs into a working, embeddable chatbot simple enough for a non-technical team to finish in one sitting — and valuable enough that they want to pay for it?":
-    "Как сделать так, чтобы превратить документы компании в работающего встраиваемого чат-бота было достаточно просто для нетехнической команды — за один подход, — и достаточно ценно, чтобы за это захотелось платить?",
+    "Как сделать так, чтобы превратить документы компании в работающего встраиваемого чат-бота и это было достаточно просто для нетехнической команды — за один подход, — и достаточно ценно, чтобы за это захотелось платить?",
   "The project started as a test assignment: a landing page and a clickable web app, built with AI tools and treated as a real product ready to launch, not a demo. The brief asked for four things — a landing page that sells, a chat for testing the bot and uploading docs, an embeddable widget builder, and a paywall — judged on design quality, product thinking, and attention to detail.":
     "Проект начался как тестовое задание: лендинг и кликабельное веб-приложение, собранные с помощью ИИ-инструментов, — как настоящий продукт, готовый к запуску, а не демо. В задании было четыре требования — продающий лендинг, чат для тестирования бота и загрузки документов, конструктор встраиваемого виджета и пейвол, — а оценивались качество дизайна, продуктовое мышление и внимание к деталям.",
   "Sole Designer | Test assignment | Built with Lovable":
@@ -881,13 +881,13 @@ window.I18N_RU = {
   "Kernle project cover":
     "Обложка проекта Kernle",
   "Kernle (AI chatbot builder)":
-    "Kernle (конструктор ИИ-чат-ботов)",
+    "Kernle (конструктор AI-чат-ботов)",
   "Vibe coding":
     "Вайб-кодинг",
   "A concept SaaS that turns documents into a support chatbot. I designed and built it through vibe coding: I led the art direction, design system, and motion, and AI wrote the code. A glowing “knowledge core” runs through the whole product — from the landing page to the animation of the bot learning from the user’s documents.":
-    "Концепт SaaS-сервиса, который превращает документы в чат-бота поддержки. Я спроектировала и собрала его методом вайб-кодинга: отвечала за арт-дирекцию, дизайн-систему и моушн, а код писал ИИ. Светящееся «ядро знаний» проходит через весь продукт — от главной страницы до анимации, в которой бот учится на документах пользователя.",
+    "Концепт SaaS-сервиса, который превращает документы в чат-бота поддержки. Весь проект создан при помощи вайб-кодинга (без Figma): отвечала за арт-дирекцию, дизайн-систему и моушн, а код писал AI. Светящееся «ядро знаний» проходит через весь продукт - от главной страницы до анимации, в которой бот учится на документах пользователя.",
   "Kernle <span class=\"text-secondary\">(AI chatbot builder)</span> <span class=\"divider\">|</span> <a href=\"https://kernle-chat-builder.vercel.app/\" target=\"_blank\" rel=\"noopener\">website</a>":
-    "Kernle <span class=\"text-secondary\">(конструктор ИИ-чат-ботов)</span> <span class=\"divider\">|</span> <a href=\"https://kernle-chat-builder.vercel.app/\" target=\"_blank\" rel=\"noopener\">сайт</a>",
+    "Kernle <span class=\"text-secondary\">(конструктор AI-чат-ботов)</span> <span class=\"divider\">|</span> <a href=\"https://kernle-chat-builder.vercel.app/\" target=\"_blank\" rel=\"noopener\">сайт</a>",
 
   // ---------- Подписи к картинкам (alt) и кнопкам ----------
   "Portrait of Statkevich Anastasiya":
