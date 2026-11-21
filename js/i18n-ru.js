@@ -694,110 +694,76 @@ window.I18N_RU = {
     "Подготовила финальные макеты, прототип и библиотеку компонентов к передаче в разработку",
 
   // ---------- Kernle (projects/kernle.html) ----------
-  "Kernle — Statkevich Anastasiya":
-    "Kernle — Анастасия Статкевич",
-  "Directing AI to design and build a chatbot builder — from moodboard to live prototype.":
-    "Как я руководила ИИ, чтобы спроектировать и собрать конструктор чат-ботов — от мудборда до работающего прототипа.",
-  "As the sole designer, I created Kernle through vibe coding: I described the product in prompts, and AI wrote the code. My job was everything the code could not decide on its own — art direction, the design system, motion, and the rules that kept a fast AI workflow from breaking a working product.":
-    "Как единственный дизайнер, я создала Kernle методом вайб-кодинга: описывала продукт в промтах, а код писал ИИ. Моя задача — всё, что код не может решить сам: арт-дирекция, дизайн-система, моушн и правила, которые не давали быстрой работе с ИИ сломать работающий продукт.",
+  "Directing AI to design and build a chatbot builder — from brief to live prototype.":
+    "Как я руководила ИИ, чтобы спроектировать и собрать конструктор чат-ботов — от брифа до работающего прототипа.",
+  "As the sole designer, I created Kernle through vibe coding: I described the product in prompts, and AI wrote the code. My job was everything the code could not decide on its own — the product flow, art direction, copy, motion, and the rules that kept a fast AI workflow from breaking a working product.":
+    "Как единственный дизайнер, я создала Kernle методом вайб-кодинга: описывала продукт в промтах, а код писал ИИ. Моя задача — всё, что код не может решить сам: пользовательский сценарий, арт-дирекция, тексты, моушн и правила, которые не давали быстрой работе с ИИ сломать работающий продукт.",
   "Product Designer, AI-assisted build":
     "Продуктовый дизайнер, разработка с ИИ",
-  "Art direction, UI, Design System, Motion, Prompting, Prototyping":
-    "Арт-дирекция, UI, дизайн-система, моушн, промтинг, прототипирование",
-  "Sole Designer | Vibe coding with Lovable | End-to-end ownership":
-    "Единственный дизайнер | Вайб-кодинг в Lovable | Полная ответственность за результат",
-  "<strong>Full design cycle</strong> from moodboard to a deployed prototype, without hand-writing code":
-    "<strong>Полный цикл дизайна</strong> — от мудборда до опубликованного прототипа, без ручного написания кода",
-  "A <strong>structured prompt system</strong> with logic guards, so the redesign never touched auth, onboarding, billing, or data":
-    "<strong>Система промтов</strong> с защитой логики: редизайн не затронул регистрацию, онбординг, оплату и данные",
-  "Design system set up as global tokens first, so every page changed <strong>without losing consistency</strong>":
-    "Дизайн-система заложена глобальными токенами в первую очередь, поэтому все страницы обновились <strong>без потери целостности</strong>",
+  "UX, UI, Branding, Copywriting, Motion, AI-assisted build":
+    "UX, UI, брендинг, копирайтинг, моушн, сборка с ИИ",
+  "Scrolling through the Kernle landing page":
+    "Скролл лендинга Kernle",
+  "How might we make turning company docs into a working, embeddable chatbot simple enough for a non-technical team to finish in one sitting — and valuable enough that they want to pay for it?":
+    "Как сделать так, чтобы превратить документы компании в работающего встраиваемого чат-бота было достаточно просто для нетехнической команды — за один подход, — и достаточно ценно, чтобы за это захотелось платить?",
+  "The project started as a test assignment: a landing page and a clickable web app, built with AI tools and treated as a real product ready to launch, not a demo. The brief asked for four things — a landing page that sells, a chat for testing the bot and uploading docs, an embeddable widget builder, and a paywall — judged on design quality, product thinking, and attention to detail.":
+    "Проект начался как тестовое задание: лендинг и кликабельное веб-приложение, собранные с помощью ИИ-инструментов, — как настоящий продукт, готовый к запуску, а не демо. В задании было четыре требования — продающий лендинг, чат для тестирования бота и загрузки документов, конструктор встраиваемого виджета и пейвол, — а оценивались качество дизайна, продуктовое мышление и внимание к деталям.",
+  "Sole Designer | Test assignment | Built with Lovable":
+    "Единственный дизайнер | Тестовое задание | Собрано в Lovable",
+  "<strong>Full design cycle</strong> from references and user flow to a deployed prototype, without hand-writing code":
+    "<strong>Полный цикл дизайна</strong> — от референсов и пользовательского сценария до опубликованного прототипа, без ручного написания кода",
+  "<strong>Every requirement of the brief</strong>, plus onboarding, a dashboard, billing, and settings — the pages that make a prototype feel like a real product":
+    "<strong>Все требования задания</strong>, а также онбординг, дашборд, оплата и настройки — страницы, благодаря которым прототип ощущается настоящим продуктом",
+  "A product with <strong>its own voice</strong>: brand, copywriting, and motion designed to avoid the generic AI look":
+    "Продукт со <strong>своим голосом</strong>: бренд, тексты и моушн, которые уходят от типичного «ИИ-вида»",
   "Kept the product <strong>fully bilingual (EN / RU)</strong> by routing all copy through the translation system":
     "Продукт остался <strong>полностью двуязычным (EN / RU)</strong>: все тексты проходят через систему переводов",
   "Landing page":
     "Лендинг",
-  "Training loader":
-    "Лоадер обучения",
-  "Web app restyle":
-    "Рестайл приложения",
-  "Prompt system":
-    "Система промтов",
-  "Live prototype":
-    "Живой прототип",
+  "Onboarding":
+    "Онбординг",
+  "Bot editor":
+    "Редактор бота",
+  "Widget builder":
+    "Конструктор виджета",
+  "Pricing &amp; paywall":
+    "Тарифы и пейвол",
   "The target audience is small business owners, support and marketing teams, and non-technical founders who already have documentation or a help center. They want a support chatbot without involving developers. Speed, a bot that looks like their brand, and zero code are what they care about.":
     "Целевая аудитория — владельцы малого бизнеса, команды поддержки и маркетинга, нетехнические основатели, у которых уже есть документация или справочный центр. Они хотят бота поддержки без участия разработчиков. Для них важны скорость, бот в стиле их бренда и отсутствие кода.",
-  "The project went from moodboard to a live prototype in a fully AI-assisted workflow. Three phases, each with its own focus.":
-    "Проект прошёл путь от мудборда до живого прототипа полностью в работе с ИИ. Три фазы, у каждой свой фокус.",
-  "Moodboard &amp; Direction":
-    "Мудборд и направление",
-  "Moodboard":
-    "Мудборд",
-  "Visual concept":
-    "Визуальная концепция",
-  "Art direction":
-    "Арт-дирекция",
-  "I collected references with light rings, soft halos, particle waves, and iridescent gradients on black. From them came the core idea: a glowing “knowledge core” that stands for the bot’s understanding and appears across the product.":
-    "Я собрала референсы: световые кольца, мягкие ореолы, волны частиц и переливающиеся градиенты на чёрном. Из них выросла главная идея — светящееся «ядро знаний», которое символизирует понимание бота и проходит через весь продукт.",
-  "Audit &amp; Prompt System":
-    "Аудит и система промтов",
-  "Project audit":
-    "Аудит проекта",
-  "Logic guards":
-    "Защита логики",
-  "Prompt structure":
-    "Структура промтов",
-  "The app already worked, so the first step was not design but protection. An audit in chat mode mapped which files held styling and which held logic. From that map, I wrote a prompt template: a guard naming untouched files, one focused task, and translation rules for both languages.":
-    "Приложение уже работало, поэтому первым шагом стал не дизайн, а защита. Аудит в режиме чата показал, в каких файлах стили, а в каких логика. На основе этой карты я написала шаблон промта: ограничения с перечнем нетронутых файлов, одна конкретная задача и правила переводов для обоих языков.",
-  "Audit":
-    "Аудит",
-  "Visual Build":
-    "Визуальная сборка",
-  "Design tokens":
-    "Дизайн-токены",
-  "App restyle":
-    "Рестайл приложения",
-  "I rebuilt the product in a strict order: global design system first, then the header and hero, the how-it-works and features sections, and pricing. Each step was checked in the live app before moving on.":
-    "Я пересобирала продукт в строгом порядке: сначала глобальная дизайн-система, затем шапка и hero, секции «Как это работает» и «Возможности», цены. Каждый шаг проверялся в живом приложении, прежде чем переходить к следующему.",
-  "Training Loader":
-    "Лоадер обучения",
-  "Motion":
-    "Моушн",
-  "Stages":
-    "Этапы",
-  "Iteration":
-    "Итерации",
-  "The loader went through two versions: solid light ribbons, then a soft halo that matches the landing page. It uses the real names of uploaded sources and replaces the old timer without changing how onboarding works.":
-    "Лоадер прошёл две версии: чёткие световые ленты, затем мягкий ореол в стиле главной страницы. Он использует реальные названия загруженных источников и заменяет старый таймер, не меняя работу онбординга.",
-  "Set up as global tokens before any section was touched — colour, type, glass surfaces, glows, and button states. Old class names were kept as aliases, so the dashboard and editor took on the new look without anything breaking.":
-    "Заложена глобальными токенами до работы над секциями: цвет, типографика, стеклянные поверхности, свечения и состояния кнопок. Старые названия классов сохранены как алиасы, поэтому дашборд и редактор получили новый вид без поломок.",
-  "Surfaces &amp; glows":
-    "Поверхности и свечения",
-  "Kernle is a live concept prototype deployed on Vercel. Data is stored in the browser and bot training is simulated, so it is not a production product — it shows the full experience and the visual direction end to end. Fittingly, the footer says it was trained on documents, not vibes; the interface itself was built on vibes.":
-    "Kernle — живой концепт-прототип, опубликованный на Vercel. Данные хранятся в браузере, а обучение бота имитируется, поэтому это не продакшн-продукт: прототип показывает весь опыт и визуальное направление целиком. Символично, что в футере написано «обучен на документах, а не на вайбах», — а сам интерфейс собран именно на вайбах.",
-  "I took Kernle from a set of references to a working, bilingual prototype — and tested how far a designer can lead a build with AI while keeping design quality and product stability under control.":
-    "Я провела Kernle от набора референсов до работающего двуязычного прототипа — и проверила, насколько далеко дизайнер может вести разработку с ИИ, сохраняя контроль над качеством дизайна и стабильностью продукта.",
-  "<strong>Vibe coding with design ownership</strong><br>AI wrote the code, but every decision about composition, colour, motion, and when to stop was mine.":
-    "<strong>Вайб-кодинг с дизайнерской ответственностью</strong><br>Код писал ИИ, но все решения о композиции, цвете, моушне и о том, когда остановиться, принимала я.",
-  "<strong>A process that protects the product</strong><br>The audit and prompt guards turned a risky full redesign into small, reviewable steps.":
-    "<strong>Процесс, который защищает продукт</strong><br>Аудит и ограничения в промтах превратили рискованный полный редизайн в небольшие проверяемые шаги.",
-  "<strong>One visual idea across the whole product</strong><br>The knowledge core links the landing page, the demo chat, and the training loader into one experience.":
-    "<strong>Одна визуальная идея во всём продукте</strong><br>Ядро знаний связывает главную страницу, демо-чат и лоадер обучения в единый опыт.",
-  "<strong>Motion with a purpose</strong><br>The loader turns waiting into an explanation of what the product does with the user’s documents.":
-    "<strong>Моушн со смыслом</strong><br>Лоадер превращает ожидание в объяснение того, что продукт делает с документами пользователя.",
-  "How might we make turning company docs into a working, embeddable chatbot simple enough for a non-technical team to finish in one sitting — and valuable enough that they want to pay for it?":
-    "Как сделать так, чтобы превратить документы компании в работающего встраиваемого чат-бота было достаточно просто для нетехнической команды — за один подход, — и достаточно ценно, чтобы за это захотелось платить?",
-  "The project started as a test assignment: a landing page and a clickable web app, built with AI tools and treated as a real product ready to launch, not a demo.":
-    "Проект начался как тестовое задание: лендинг и кликабельное веб-приложение, собранные с помощью ИИ-инструментов, — как настоящий продукт, готовый к запуску, а не демо.",
+  "A landing page that lets the product sell itself":
+    "Лендинг, на котором продукт продаёт себя сам",
+  "A chatbot builder is hard to explain with a headline alone. Before signing up, visitors need to see what the bot does and believe that setting it up takes minutes, not a project.":
+    "Конструктор чат-ботов сложно объяснить одним заголовком. Прежде чем зарегистрироваться, посетителю нужно увидеть, что делает бот, и поверить, что настройка займёт минуты, а не целый проект.",
+  "Kernle landing page hero with a demo chat":
+    "Первый экран лендинга Kernle с демо-чатом",
+  "Landing page hero":
+    "Первый экран лендинга",
+  "The hero puts a working demo bot right under the headline, so visitors see a real answer before reading any feature list. The copy speaks plainly and with a bit of humour — “Your docs, but they actually answer back” — and the main doubts are answered right under the buttons: no credit card, a free tier forever, and a five-minute setup. A three-step section and a short pricing teaser then lead into sign-up.":
+    "На первом экране прямо под заголовком работает демо-бот: посетитель видит настоящий ответ раньше, чем список возможностей. Тексты простые и с долей юмора — «Ваши документы теперь умеют отвечать», — а главные сомнения сняты прямо под кнопками: карта не нужна, бесплатный тариф навсегда, настройка за пять минут. Затем секция из трёх шагов и короткий блок с ценами ведут к регистрации.",
+  "<strong>The result:</strong> the landing page answers what the product is, how hard it is to set up, and what it costs before the visitor has to ask — with sign-up always one click away.":
+    "<strong>Результат:</strong> лендинг отвечает, что это за продукт, насколько сложно его настроить и сколько он стоит, ещё до того, как посетитель успеет спросить, — а регистрация всегда в одном клике.",
   "Getting to a working bot in three steps":
     "Работающий бот за три шага",
   "A chatbot builder starts with an empty page: users don’t know what to upload, how much is enough, or what the result will look like. Every setup step before the first answer is a reason to leave.":
     "Конструктор чат-ботов начинается с пустой страницы: пользователь не знает, что загружать, сколько этого нужно и как будет выглядеть результат. Каждый шаг настройки до первого ответа — повод уйти.",
-  "Onboarding":
-    "Онбординг",
+  "Step 1 · Name":
+    "Шаг 1 · Имя",
+  "Step 2 · Purpose":
+    "Шаг 2 · Назначение",
+  "Step 3 · Sources":
+    "Шаг 3 · Источники",
+  "Onboarding step 1: bot name":
+    "Онбординг, шаг 1: имя бота",
+  "Onboarding step 2: bot purpose":
+    "Онбординг, шаг 2: назначение бота",
+  "Onboarding step 3: sources":
+    "Онбординг, шаг 3: источники",
   "Onboarding asks only for what the bot needs to exist: a name, a purpose, and sources — files, a website link, or pasted text. Everything else has a sensible default, so even a skipped name becomes “My first bot”. A short training screen shows the user’s own sources being read, then opens the new bot straight in the editor, ready to chat.":
     "Онбординг спрашивает только то, без чего бот не может существовать: имя, назначение и источники — файлы, ссылку на сайт или вставленный текст. У всего остального есть разумные значения по умолчанию: даже пропущенное имя превращается в «My first bot». Короткий экран обучения показывает, как читаются источники пользователя, и сразу открывает нового бота в редакторе, готового к диалогу.",
   "<strong>The result:</strong> from sign-up to the first answer in one sitting, with no empty screens and no settings to fill in upfront.":
     "<strong>Результат:</strong> от регистрации до первого ответа за один подход — без пустых экранов и настроек, которые нужно заполнить заранее.",
+  "Training screen animation":
+    "Анимация экрана обучения",
   "Training screen":
     "Экран обучения",
   "Testing, sources and settings in one place":
@@ -808,8 +774,8 @@ window.I18N_RU = {
     "У каждого бота один редактор: чат в стиле ChatGPT для тестирования находится рядом с источниками, настройками поведения и внешнего вида. Можно добавить документ, переобучить бота и спросить снова, не уходя со страницы, а панель сохранения появляется только при несохранённых изменениях.",
   "<strong>The result:</strong> a tight loop — ask, spot a gap, add a document, retrain, ask again — that makes the bot better in minutes.":
     "<strong>Результат:</strong> короткий цикл — спросить, заметить пробел, добавить документ, переобучить, спросить снова — улучшает бота за минуты.",
-  "Bot editor":
-    "Редактор бота",
+  "Kernle bot editor with a test chat":
+    "Редактор бота Kernle с тестовым чатом",
   "Embedding without a developer":
     "Встраивание без разработчика",
   "A bot is only useful once it is on the customer’s website, and that step usually needs a developer. Users also need to trust that the widget will look like part of their brand, not a third-party add-on.":
@@ -818,8 +784,8 @@ window.I18N_RU = {
     "В конструкторе виджета цвета, аватар, расположение и приветственное сообщение сразу обновляют живое превью. Когда всё выглядит как надо, для встраивания достаточно скопировать один тег script — с пометкой, что он работает на Webflow, WordPress, Shopify и обычном HTML.",
   "<strong>The result:</strong> embedding becomes a copy-paste step that a non-technical user can finish alone.":
     "<strong>Результат:</strong> встраивание превращается в «скопировать и вставить», с которым нетехнический пользователь справится сам.",
-  "Widget builder":
-    "Конструктор виджета",
+  "Widget builder with a live preview and embed code":
+    "Конструктор виджета с живым превью и кодом встраивания",
   "A paywall that follows the value":
     "Пейвол, который следует за ценностью",
   "Gating random features makes a free plan feel broken and a paid plan feel arbitrary. The limits had to follow how the value of a bot actually grows for a business.":
@@ -828,20 +794,92 @@ window.I18N_RU = {
     "Тарифы различаются тем, что растёт вместе с бизнесом: количеством ботов, сообщений в месяц, возможностью убрать брендинг Kernle, а для команд — местами, ролями и доступом к API. Бесплатный тариф — это полноценный продукт с одним ботом, поэтому запуститься можно до оплаты. Предложение перейти на тариф выше появляется в момент необходимости — когда пользователь достигает лимита ботов — и ведёт к оплате, не выходя из приложения.",
   "<strong>The result:</strong> users pay once the product has already proven useful, and each plan answers a clear need: more bots, more traffic, or their own brand.":
     "<strong>Результат:</strong> пользователь платит, когда продукт уже доказал свою пользу, а каждый тариф отвечает на понятную потребность: больше ботов, больше трафика или собственный бренд.",
-  "Pricing &amp; checkout":
-    "Тарифы и оплата",
-  // Kernle — новые подписи к картинкам и видео (alt)
-  "Kernle onboarding: name, purpose, sources":
-    "Онбординг Kernle: имя, назначение, источники",
-  "Training screen animation":
-    "Анимация экрана обучения",
-  "Kernle bot editor with a test chat":
-    "Редактор бота Kernle с тестовым чатом",
-  "Widget builder with a live preview and embed code":
-    "Конструктор виджета с живым превью и кодом встраивания",
   "Kernle pricing plans and checkout":
     "Тарифы Kernle и оплата",
+  "Pricing &amp; checkout":
+    "Тарифы и оплата",
+  "The project went from brief to a live prototype in a fully AI-assisted workflow. Three phases, each with its own focus.":
+    "Проект прошёл путь от брифа до живого прототипа полностью в работе с ИИ. Три фазы, у каждой свой фокус.",
+  "Process timeline: Phase 1 Flow, Phase 2 Build, Phase 3 Visual direction":
+    "Таймлайн процесса: этап 1 — сценарий, этап 2 — сборка, этап 3 — визуальное направление",
+  "User Flow &amp; Scope":
+    "Сценарий и объём работ",
+  "Requirements":
+    "Требования",
+  "I started from the brief and mapped one continuous path: landing page, sign-up, onboarding, bot editor, embed code, and upgrade. Every screen had to move the user along that path; anything that didn’t was left out.":
+    "Я начала с брифа и выстроила один непрерывный путь: лендинг, регистрация, онбординг, редактор бота, код встраивания и переход на платный тариф. Каждый экран должен был вести пользователя по этому пути, а всё, что не вело, я убрала.",
+  "Kernle user flow from landing page to upgrade":
+    "Пользовательский сценарий Kernle от лендинга до перехода на тариф",
+  "Building with AI":
+    "Сборка с ИИ",
+  "Prompt structure":
+    "Структура промтов",
+  "Logic guards":
+    "Защита логики",
+  "I built the app in Lovable, describing each flow in prompts and reviewing what the AI produced rather than accepting the first output. For later changes, an audit split the project into visual and logic files, and every prompt carried a guard naming what must not be touched.":
+    "Я собрала приложение в Lovable: описывала каждый сценарий в промтах и проверяла то, что сгенерировал ИИ, а не принимала первый результат. Для последующих изменений аудит разделил проект на визуальные и логические файлы, и каждый промт содержал ограничение с перечнем того, что трогать нельзя.",
+  "Audit result: visual and logic files":
+    "Результат аудита: визуальные и логические файлы",
+  "Audit":
+    "Аудит",
+  "Moodboard &amp; Visual Direction":
+    "Мудборд и визуальное направление",
+  "Moodboard":
+    "Мудборд",
+  "Visual concept":
+    "Визуальная концепция",
+  "Art direction":
+    "Арт-дирекция",
+  "To meet the brief’s “no generic AI” bar, I collected references with light rings, soft halos, and particle waves on black. They led to a glowing “knowledge core” that runs from the landing page hero to the training screen, and to a global design system applied across every page.":
+    "Чтобы уйти от типичного «ИИ-вида», которого просило избегать задание, я собрала референсы: световые кольца, мягкие ореолы и волны частиц на чёрном. Из них выросло светящееся «ядро знаний», которое проходит от первого экрана лендинга до экрана обучения, и глобальная дизайн-система для всех страниц.",
+  "Kernle moodboard":
+    "Мудборд Kernle",
+  "Training Loader":
+    "Лоадер обучения",
+  "Motion":
+    "Моушн",
+  "Stages":
+    "Этапы",
+  "Iteration":
+    "Итерации",
+  "The loader went through two versions: solid light ribbons, then a soft halo that matches the landing page. It uses the real names of uploaded sources and replaces the old timer without changing how onboarding works.":
+    "Лоадер прошёл две версии: чёткие световые ленты, затем мягкий ореол в стиле главной страницы. Он использует реальные названия загруженных источников и заменяет старый таймер, не меняя работу онбординга.",
+  "Training loader stages":
+    "Этапы лоадера обучения",
+  "Training loader":
+    "Лоадер обучения",
+  "Set up as global tokens before any section was touched — colour, type, glass surfaces, glows, and button states. Old class names were kept as aliases, so the dashboard and editor took on the new look without anything breaking.":
+    "Заложена глобальными токенами до работы над секциями: цвет, типографика, стеклянные поверхности, свечения и состояния кнопок. Старые названия классов сохранены как алиасы, поэтому дашборд и редактор получили новый вид без поломок.",
+  "Kernle colour tokens":
+    "Цветовые токены Kernle",
+  "Kernle typography":
+    "Типографика Kernle",
+  "Glass surfaces and glows":
+    "Стеклянные поверхности и свечения",
+  "Surfaces &amp; glows":
+    "Поверхности и свечения",
+  "Kernle buttons with states":
+    "Кнопки Kernle с состояниями",
+  "Kernle was created as a test assignment and is live as a concept prototype on Vercel. As the brief allowed, there is no backend: data is stored in the browser and bot training is simulated, but every core flow works end to end. Fittingly, the footer says it was trained on documents, not vibes; the interface itself was built on vibes.":
+    "Kernle создан как тестовое задание и опубликован как живой концепт-прототип на Vercel. Как и позволяло задание, бэкенда нет: данные хранятся в браузере, а обучение бота имитируется, но все ключевые сценарии работают от начала до конца. Символично, что в футере написано «обучен на документах, а не на вайбах», — а сам интерфейс собран именно на вайбах.",
+  "Live prototype":
+    "Живой прототип",
+  "I took an open brief to a complete, launch-ready product experience — and tested how far a designer can lead a build with AI while keeping design quality under control.":
+    "Я превратила открытый бриф в цельный продукт, готовый к запуску, — и проверила, насколько далеко дизайнер может вести разработку с ИИ, сохраняя контроль над качеством дизайна.",
+  "<strong>One flow from first visit to first payment</strong><br>The landing page, onboarding, bot editor, widget builder, and paywall connect into a single path.":
+    "<strong>Один путь от первого визита до первой оплаты</strong><br>Лендинг, онбординг, редактор бота, конструктор виджета и пейвол связаны в единый сценарий.",
+  "<strong>Design with personality</strong><br>A recognisable visual idea and a friendly, slightly ironic voice instead of the generic AI look.":
+    "<strong>Дизайн с характером</strong><br>Узнаваемая визуальная идея и дружелюбный, слегка ироничный тон вместо типичного «ИИ-вида».",
+  "<strong>Attention to detail</strong><br>Microcopy, a training animation built from the user’s own files, live previews, and reduced-motion support make the prototype feel finished.":
+    "<strong>Внимание к деталям</strong><br>Микротексты, анимация обучения из файлов самого пользователя, живые превью и поддержка reduced motion делают прототип законченным.",
+  "<strong>Vibe coding with design ownership</strong><br>AI wrote the code, but every decision about composition, colour, motion, and when to stop was mine.":
+    "<strong>Вайб-кодинг с дизайнерской ответственностью</strong><br>Код писал ИИ, но все решения о композиции, цвете, моушне и о том, когда остановиться, принимала я.",
+  "Kernle — Statkevich Anastasiya":
+    "Kernle — Анастасия Статкевич",
+
   // Kernle на главной (index.html)
+  "Kernle project cover":
+    "Обложка проекта Kernle",
   "Kernle (AI chatbot builder)":
     "Kernle (конструктор ИИ-чат-ботов)",
   "Vibe coding":
@@ -850,29 +888,6 @@ window.I18N_RU = {
     "Концепт SaaS-сервиса, который превращает документы в чат-бота поддержки. Я спроектировала и собрала его методом вайб-кодинга: отвечала за арт-дирекцию, дизайн-систему и моушн, а код писал ИИ. Светящееся «ядро знаний» проходит через весь продукт — от главной страницы до анимации, в которой бот учится на документах пользователя.",
   "Kernle <span class=\"text-secondary\">(AI chatbot builder)</span> <span class=\"divider\">|</span> <a href=\"https://kernle-chat-builder.vercel.app/\" target=\"_blank\" rel=\"noopener\">website</a>":
     "Kernle <span class=\"text-secondary\">(конструктор ИИ-чат-ботов)</span> <span class=\"divider\">|</span> <a href=\"https://kernle-chat-builder.vercel.app/\" target=\"_blank\" rel=\"noopener\">сайт</a>",
-  // Kernle — подписи к картинкам и видео (alt)
-  "Kernle project cover":
-    "Обложка проекта Kernle",
-  "Kernle — laptop mockup":
-    "Kernle — мокап на ноутбуке",
-  "Process timeline: Phase 1 Direction, Phase 2 System, Phase 3 Build":
-    "Таймлайн процесса: этап 1 — направление, этап 2 — система, этап 3 — сборка",
-  "Kernle moodboard":
-    "Мудборд Kernle",
-  "Audit result: visual and logic files":
-    "Результат аудита: визуальные и логические файлы",
-  "Kernle landing page":
-    "Лендинг Kernle",
-  "Training loader stages":
-    "Этапы лоадера обучения",
-  "Kernle colour tokens":
-    "Цветовые токены Kernle",
-  "Kernle typography":
-    "Типографика Kernle",
-  "Glass surfaces and glows":
-    "Стеклянные поверхности и свечения",
-  "Kernle buttons with states":
-    "Кнопки Kernle с состояниями",
 
   // ---------- Подписи к картинкам (alt) и кнопкам ----------
   "Portrait of Statkevich Anastasiya":
