@@ -14,7 +14,7 @@ window.I18N_RU = {
   "Statkevich Anastasiya — UX/UI Designer":
     "Анастасия Статкевич — UX/UI-дизайнер",
   "Product Designer / UX/UI Designer specializing in SaaS, fintech, Web3 and design systems":
-    "Продуктовый дизайнер / UX/UI-дизайнер: SaaS, финтех, Web3 и дизайн-системы",
+    "Продуктовый дизайнер (UX/UI) специализируюсь в SaaS, финтех, Web3",
   "Statkevich Anastasiya":
     "Анастасия Статкевич",
   "Design is a system, <br>not a <span style=\"color: var(--color-accent)\">coincidence</span>.":
