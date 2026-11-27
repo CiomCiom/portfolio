@@ -12,7 +12,7 @@
     let ringX = mouseX;
     let ringY = mouseY;
 
-    const EASE = 0.15;
+    const EASE = 1;
 
     window.addEventListener('mousemove', (e) => {
         mouseX = e.clientX;
