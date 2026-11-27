@@ -220,7 +220,7 @@ window.I18N_RU = {
   "Designing clarity and control into AI-powered Web3 delegation.":
     "Понятное и управляемое Web3-делегирование на основе ИИ.",
   "As the sole product designer, I designed Polli from early concepts to handoff — turning complex delegation, AI recommendations, and wallet states into an experience users could understand and control.":
-    "Как единственный продуктовый дизайнер, я вела Polli от первых концепций до передачи в разработку — превращала сложное делегирование, рекомендации ИИ и состояния кошельков в опыт, который пользователи могли понимать и контролировать.",
+    "Как единственный продуктовый дизайнер, я вела Polli от первых концепций до передачи в разработку — превращала сложное делегирование, рекомендации AI и состояния кошельков в опыт, который пользователи могли понимать и контролировать.",
   "Year":
     "Год",
   "Lead Product Designer":
@@ -238,7 +238,7 @@ window.I18N_RU = {
   "Challenge":
     "Задача",
   "How might we reduce the complexity of delegation without taking control away from experienced users — especially when AI is making recommendations on their behalf?":
-    "Как упростить делегирование, не отнимая контроль у опытных пользователей, — особенно когда рекомендации за них даёт ИИ?",
+    "Как упростить делегирование, не отнимая контроль у опытных пользователей, — особенно когда рекомендации за них даёт AI?",
   "My role":
     "Моя роль",
   "Sole Product Designer | ~2 years | End-to-end ownership":
@@ -264,7 +264,7 @@ window.I18N_RU = {
   "User":
     "Пользователь",
   "The target audience is technically literate users aged 22–50 who understand the crypto market well but want to spend less time on operational decisions. Transparency, control, and speed are what they care about.":
-    "Целевая аудитория — технически грамотные пользователи 22–50 лет, которые хорошо разбираются в криптовалютном рынке, но хотят тратить меньше времени на операционные решения. Для них важны прозрачность, контроль и скорость.",
+    "Целевая аудитория — технически грамотные пользователи 22 – 50 лет, которые хорошо разбираются в криптовалютном рынке, но хотят тратить меньше времени на операционные решения. Для них важны прозрачность, контроль и скорость.",
   "Selected UX Decisions":
     "Ключевые UX-решения",
   "Reducing delegation from 7 steps to 3":
